@@ -1,3 +1,6 @@
+/* Adding fonts from Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@300&display=swap');
+
 /* removing margins, padding and border */
 * {
     padding: 0;
@@ -7,4 +10,6 @@
 
 body {
     color: blue;
+    font-family: Odwald, sans-serif;
+    font-weight: 300;
 }
