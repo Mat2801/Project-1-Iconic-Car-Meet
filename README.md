@@ -1,7 +1,5 @@
-Your Project's Name
-One or two paragraphs providing an overview of your project.
-
-Essentially, this part is your sales pitch.
+##Iconic Car Meets
+This is a website based on an imagined nationwide car meet where people from all around the nation that own iconic cars, can meet up have a chat and show off their cars. This website will be to attract member of the public who are car enthusiasts especially those who like iconic cars. There will be stand out images of some of the most iconic cars throughout the website and especially on our gallery page where you will also find videos. We will have some pictures and videos from our recent car meets and a schedule for when the next meets will take place. With a very easy book in system where you can register to take part in our meets and take your place. 
 
 UX
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
