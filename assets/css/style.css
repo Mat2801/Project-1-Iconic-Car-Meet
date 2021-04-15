@@ -8,6 +8,7 @@
     border: none;
 }
 
+/* adding font family and colour to all text unspecified */
 body {
     font-family: Odwald, sans-serif;
     font-weight: 300;
@@ -53,12 +54,24 @@ body {
     color: #fdc029;
 }
 
-/* main video/image */
+/* main video/image and landing text */
 
 #landing-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
+
+    position: relative;
+}
+
+#landing-text,
+#landing-text h2 {
+    color: #fff;
+}
+
+#landing-text,
+#landing-text h3 {
+    color: black;
 }
 
 #landing-img {
@@ -70,6 +83,25 @@ body {
     animation-name: landing-img-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
+}
+
+#landing-text {
+    font-family: oswald, sans-serif;
+    font-size: 200%;
+    text-transform: uppercase;
+
+    width: 450px;
+    height: 160px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(253, 192, 41, .7);
+
+    top: 50px;
+    left: 35%;
+
+    position: absolute;
 }
 
 /* creats the level of zoom for the image */
