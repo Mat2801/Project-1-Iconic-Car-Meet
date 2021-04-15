@@ -1,7 +1,27 @@
 ##Iconic Car Meets
-This is a website based on an imagined nationwide car meet where people from all around the nation that own iconic cars, can meet up have a chat and show off their cars. This website will be to attract member of the public who are car enthusiasts especially those who like iconic cars. There will be stand out images of some of the most iconic cars throughout the website and especially on our gallery page where you will also find videos. We will have some pictures and videos from our recent car meets and a schedule for when the next meets will take place. With a very easy book in system where you can register to take part in our meets and take your place. 
+This is a website based on an imagined nationwide car meet where people from all around the nation that own iconic cars, 
+can meet up have a chat and show off their cars. This website will be to attract member of the public who are car enthusiasts 
+especially those who like iconic cars. There will be stand out images of some of the most iconic cars throughout the website and 
+especially on our gallery page where you will also find videos. 
+We will have some pictures and videos from our recent car meets and a schedule for when the next meets will take place. 
+With a very easy book in system where you can register to take part in our meets and take your place. We will also have a free survey 
+where you can take part to be in with a chance to win some free merchandice.
 
 UX
+This websites users are intrested in iconic cars and locations of iconic car meets as well as get a little bit of information regarding the
+car meets and who runs them.
+
+The site owners goal is to provide a webpage that allows users to read a reliable source of information regard iconic car meets e.g 
+(location, time, date)
+and information on rules and regulations in place during car meets. 
+
+We are hoping to include features such as
+- Event schedule
+- Reliable information regarding car meets 
+- Images/videos from previous car meets 
+- sign up for a newsletter
+- sign up to take part in our meets 
+
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
