@@ -9,19 +9,16 @@
 }
 
 body {
-    color: blue;
     font-family: Odwald, sans-serif;
     font-weight: 300;
+    background-color: black;
 }
 
 /* header and logo */
 
-header {
-    background-color: black;
-}
-
 #logo {
     float: left;
+    margin: 20px 20px;
 }
 
 /* navigation links */
@@ -32,14 +29,14 @@ header {
 
 #nav-menu,
 #logo {
-    line-height: 50px;
-    background-color: black;
+    line-height: 170px;
 }
 
 #nav-menu li {
     float: right;
     margin-right: 30px;
     list-style-type: none;
+    text-transform: uppercase;
 }
 
 #nav-menu a {
@@ -48,15 +45,41 @@ header {
 }
 
 #nav-menu a:hover {
-    background-color: #fdc029;
     text-decoration: underline;
-    color: black;
+    color: #fdc029;
 }
 
-.active {
-    background-color: #fdc029;
+#nav-menu .active {
+    color: #fdc029;
 }
 
-.active li {
-    color: black;
+/* main video/image */
+
+#landing-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#landing-img {
+    height: 600px;
+    width: 100%;
+
+    /* animation effect on landing image */
+
+    animation-name: landing-img-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* creats the level of zoom for the image */
+
+@keyframes landing-img-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.2);
+    }
 }
