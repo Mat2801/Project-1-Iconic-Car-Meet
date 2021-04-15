@@ -23,3 +23,40 @@ header {
 #logo {
     float: left;
 }
+
+/* navigation links */
+
+#nav-menu {
+    font-size: 25px;
+}
+
+#nav-menu,
+#logo {
+    line-height: 50px;
+    background-color: black;
+}
+
+#nav-menu li {
+    float: right;
+    margin-right: 30px;
+    list-style-type: none;
+}
+
+#nav-menu a {
+    text-decoration: none;
+    color: white;
+}
+
+#nav-menu a:hover {
+    background-color: #fdc029;
+    text-decoration: underline;
+    color: black;
+}
+
+.active {
+    background-color: #fdc029;
+}
+
+.active li {
+    color: black;
+}
