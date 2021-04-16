@@ -133,3 +133,22 @@ body {
         width: 450px;
     }
 }
+
+/* meet the team */
+
+#meet-the-team {
+    height: 800px;
+    width: 100%;
+}
+
+#left-section {
+    width: 40%;
+    float: left;
+    margin: 30px;
+}
+
+#right-section {
+    width: 40%;
+    float: right;
+    margin: 30px;
+}
