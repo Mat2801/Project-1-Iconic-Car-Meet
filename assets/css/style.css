@@ -60,6 +60,8 @@ body {
     height: 600px;
     width: 100%;
     overflow: hidden;
+    border-bottom: 5px solid #fdc029;
+    border-top: 5px solid #fdc029;
 
     position: relative;
 }
@@ -139,6 +141,7 @@ body {
 #meet-the-team {
     height: 800px;
     width: 100%;
+    border-bottom: 5px solid #fdc029;
 }
 
 #left-section {
