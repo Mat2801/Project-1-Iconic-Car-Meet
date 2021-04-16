@@ -141,7 +141,6 @@ body {
 #meet-the-team {
     height: 800px;
     width: 100%;
-    border-bottom: 5px solid #fdc029;
 }
 
 #left-section {
@@ -220,18 +219,32 @@ hr {
     font-family: montserrat, sans-serif;
 }
 
-.circle-container-right {
-    width: 400px;
+/* background image for time and location section */
+
+/* times and locations */
+
+#time-location div {
     height: 400px;
-    padding: 30px;
-    border-style: none;
-    border-color: #cccccc;
-    border-width: 1px;
-    border-radius: 50%;
-    margin: 0 auto;
+    width: 100%;
+    float: left;
+    padding-top: 30px;
+    padding-left: 10px;
+    border: 5px solid #fdc029;
+    box-sizing: border-box;
+    background-image: url(../images/1554new.jpg);
 }
 
-.cirlce-right-img {
-    height: 100%;
-    border-radius: 50%;
+#time-location h2 {
+    font-family: oswald, sans-serif;
+    text-align: center;
+    color: #fdc029;
+    font-size: 75px;
+    text-shadow: 3px 0 #fff;
+}
+
+#time-location h3 {
+    font-family: oswald, sans-serif;
+    text-align: center;
+    color: #fdc029;
+    font-size: 30px;
 }
