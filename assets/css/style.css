@@ -69,11 +69,6 @@ body {
     color: #fff;
 }
 
-#landing-text,
-#landing-text h3 {
-    color: black;
-}
-
 #landing-img {
     height: 600px;
     width: 100%;
@@ -87,13 +82,13 @@ body {
 
 #landing-text {
     font-family: oswald, sans-serif;
-    font-size: 200%;
+    font-size: 150%;
     text-transform: uppercase;
 
     width: 450px;
-    height: 160px;
+    height: 145px;
 
-    padding-top: 40px;
+    padding-top: 30px;
     padding-left: 10px;
 
     background-color: rgba(253, 192, 41, .7);
@@ -104,7 +99,17 @@ body {
     position: absolute;
 }
 
-/* creats the level of zoom for the image */
+#landing-text {
+    height: 145px;
+    width: 450px;
+
+    /* animation effect on landing text */
+
+    animation-name: landing-text-slidein;
+    animation-duration: 5s;
+}
+
+/* create's the level of zoom for the image */
 
 @keyframes landing-img-zoom {
     from {
@@ -113,5 +118,18 @@ body {
 
     to {
         transform: scale(1.2);
+    }
+}
+
+/* create the level of zoom for landing text */
+@keyframes landing-text-slidein {
+    from {
+        margin-top: 100%;
+        width: 450px
+    }
+
+    to {
+        margin-top: 0%;
+        width: 450px;
     }
 }
