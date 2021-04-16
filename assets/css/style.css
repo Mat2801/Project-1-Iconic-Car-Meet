@@ -144,11 +144,65 @@ body {
 #left-section {
     width: 40%;
     float: left;
-    margin: 30px;
+    padding: 30px;
 }
 
 #right-section {
     width: 40%;
     float: right;
-    margin: 30px;
+    padding: 30px;
+}
+
+hr {
+    border-top: 2px solid #fdc029;
+    margin: 5px;
+    width: 100%;
+}
+
+/* Left section text and image */
+.left-section-text {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin: 50px;
+    color: #fff;
+}
+
+.left-section-img {
+    padding-left: 180px;
+    padding-top: 60px;
+}
+
+.left-section-text h2 {
+    text-align: center;
+}
+
+.left-section-text p {
+    text-align: center;
+    font-family: montserrat, sans-serif;
+}
+
+/* right section text and image */
+.right-section-text {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin: 50px 50px 50px 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.right-section-img {
+    padding-top: 60px;
+}
+
+.right-section-text h2 {
+    text-align: center;
+}
+
+.right-section-text p {
+    text-align: center;
+    font-family: montserrat, sans-serif;
 }
