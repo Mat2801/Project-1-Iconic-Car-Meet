@@ -221,9 +221,9 @@ hr {
 
 /* background image for time and location section */
 
-/* times and locations */
+/* times and locations tiles */
 
-#time-location div {
+#collection-cars {
     height: 400px;
     width: 100%;
     float: left;
@@ -233,6 +233,52 @@ hr {
     box-sizing: border-box;
     background-image: url(../images/1554new.jpg);
 }
+
+#future-cars {
+    height: 400px;
+    width: 100%;
+    float: left;
+    padding-top: 30px;
+    padding-left: 10px;
+    border: 5px solid #fdc029;
+    box-sizing: border-box;
+    background-image: url(../images/1554new.jpg);
+}
+
+#euro-cars {
+    height: 400px;
+    width: 100%;
+    float: left;
+    padding-top: 30px;
+    padding-left: 10px;
+    border: 5px solid #fdc029;
+    box-sizing: border-box;
+    background-image: url(../images/1554new.jpg);
+}
+
+#japan-cars {
+    height: 400px;
+    width: 100%;
+    float: left;
+    padding-top: 30px;
+    padding-left: 10px;
+    border: 5px solid #fdc029;
+    box-sizing: border-box;
+    background-image: url(../images/1554new.jpg);
+}
+
+#usa-cars {
+    height: 400px;
+    width: 100%;
+    float: left;
+    padding-top: 30px;
+    padding-left: 10px;
+    border: 5px solid #fdc029;
+    box-sizing: border-box;
+    background-image: url(../images/1554new.jpg);
+}
+
+/* time and locations text */
 
 #time-location h2 {
     font-family: oswald, sans-serif;
