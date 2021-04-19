@@ -16,7 +16,7 @@ The site owners goal is to provide a webpage that allows users to read a reliabl
 and information on rules and regulations in place during car meets. 
 
 We are hoping to include features such as
-- Event schedule
+- Event schedule / calander.
 - Reliable information regarding car meets 
 - Images/videos from previous car meets 
 - sign up for a newsletter
@@ -32,6 +32,7 @@ This section is also where you would share links to any wireframes, mockups, dia
 Features
 - link to times and locations by clicking the icon at the top of the page 
 - click any location to see the map
+- social media links open in a new tab
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 
@@ -75,6 +76,7 @@ reverted to circles
 - text to show over image correctly, darkened the image manually and highlighted text
 - step back on a commit due to messing up css code unsure what the issue was.
 - trying to fade images for location and time using rbga background colour but not working
+- times and location images not lining up correctly, one is a little lower than all the rest.
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
