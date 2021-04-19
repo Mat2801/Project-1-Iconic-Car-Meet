@@ -10,6 +10,7 @@
 
 /* adding font family and colour to all text unspecified */
 body {
+    width: 100%;
     font-family: Odwald, sans-serif;
     font-weight: 300;
     background-color: black;
@@ -138,7 +139,7 @@ body {
 
 /* meet the team */
 
-#meet-the-team {
+.meet-the-team {
     height: 800px;
     width: 100%;
 }
@@ -346,4 +347,68 @@ h4 {
     color: #fff;
     text-align: center;
     padding-top: 3%;
+}
+
+/* about matt section on about us page */
+
+#about-matt-section {
+    height: 450px;
+    width: 100%;
+    padding: 30px;
+    float: left;
+    border-top: 5px solid #fdc029;
+}
+
+#about-matt-img {
+    width: 40%;
+    float: left;
+    padding: 30px;
+}
+
+#about-matt-text {
+    width: 40%;
+    float: left;
+    padding: 30px;
+}
+
+#about-matt-text h2 {
+    color: #fff;
+    text-align: center;
+}
+
+#about-matt-text p {
+    color: #fff;
+    text-align: center;
+}
+
+/* about wendy section on about us page */
+
+#about-wendy-section {
+    height: 4500px;
+    width: 100%;
+    padding: 30px;
+    float: left;
+    border-top: 5px solid #fdc029;
+}
+
+#about-wendy-img {
+    width: 40%;
+    float: left;
+    padding: 30px;
+}
+
+#about-wendy-text {
+    width: 40%;
+    float: left;
+    padding: 30px;
+}
+
+#about-wendy-text h2 {
+    color: #fff;
+    text-align: center;
+}
+
+#about-wendy-text p {
+    color: #fff;
+    text-align: center;
 }
