@@ -225,57 +225,77 @@ hr {
 
 #collection-cars {
     height: 400px;
-    width: 100%;
+    width: 50%;
     float: left;
     padding-top: 30px;
     padding-left: 10px;
     border: 5px solid #fdc029;
     box-sizing: border-box;
-    background-image: url(../images/1554new.jpg);
+    background-image: url(../images/collection.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
 }
 
 #future-cars {
     height: 400px;
-    width: 100%;
+    width: 50%;
     float: left;
     padding-top: 30px;
     padding-left: 10px;
     border: 5px solid #fdc029;
     box-sizing: border-box;
-    background-image: url(../images/1554new.jpg);
+    background-image: url(../images/futureicon.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
 }
 
 #euro-cars {
     height: 400px;
-    width: 100%;
+    width: 33.33%;
     float: left;
-    padding-top: 30px;
+    padding-top: 10px;
     padding-left: 10px;
     border: 5px solid #fdc029;
     box-sizing: border-box;
-    background-image: url(../images/1554new.jpg);
+    background-image: url(../images/euro.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
 }
 
 #japan-cars {
     height: 400px;
-    width: 100%;
+    width: 33.33%;
     float: left;
     padding-top: 30px;
     padding-left: 10px;
     border: 5px solid #fdc029;
     box-sizing: border-box;
-    background-image: url(../images/1554new.jpg);
+    background-image: url(../images/japanese.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
 }
 
 #usa-cars {
     height: 400px;
-    width: 100%;
+    width: 33.33%;
     float: left;
     padding-top: 30px;
     padding-left: 10px;
     border: 5px solid #fdc029;
     box-sizing: border-box;
-    background-image: url(../images/1554new.jpg);
+    background-image: url(../images/usa.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
 }
 
 /* time and locations text */
@@ -284,8 +304,8 @@ hr {
     font-family: oswald, sans-serif;
     text-align: center;
     color: #fdc029;
-    font-size: 75px;
-    text-shadow: 3px 0 #fff;
+    font-size: 50px;
+    text-shadow: 3px 0 black;
 }
 
 #time-location h3 {

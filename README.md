@@ -74,6 +74,7 @@ reverted to circles
 - time and location tiles images wouldn't center. fixed by manually resizing images and putting images into css instead of html
 - text to show over image correctly, darkened the image manually and highlighted text
 - step back on a commit due to messing up css code unsure what the issue was.
+- trying to fade images for location and time using rbga background colour but not working
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
