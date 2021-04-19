@@ -315,7 +315,7 @@ hr {
     font-size: 30px;
 }
 
-/* social links */
+/* footer & social links */
 footer {
     height: 800px;
     padding-top: 200px;
@@ -337,4 +337,9 @@ footer {
     color: #fdc029;
 }
 
-/* footer */
+h4 {
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    padding-top: 3%;
+}
