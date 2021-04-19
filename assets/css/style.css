@@ -314,3 +314,27 @@ hr {
     color: #fdc029;
     font-size: 30px;
 }
+
+/* social links */
+footer {
+    height: 800px;
+    padding-top: 200px;
+}
+
+.social-links {
+    text-align: center;
+    padding-top: 75px;
+}
+
+.social-links li {
+    display: inline;
+}
+
+.social-links a {
+    font-size: 50px;
+    margin: 5%;
+    padding: 2%;
+    color: #fdc029;
+}
+
+/* footer */
