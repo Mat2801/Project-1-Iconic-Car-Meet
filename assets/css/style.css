@@ -384,7 +384,7 @@ h4 {
 /* about wendy section on about us page */
 
 #about-wendy-section {
-    height: 4500px;
+    height: 450px;
     width: 100%;
     padding: 30px;
     float: left;
@@ -411,4 +411,29 @@ h4 {
 #about-wendy-text p {
     color: #fff;
     text-align: center;
+}
+
+/* about the owners cars */
+
+#our-cars-section {
+    height: 500px;
+    width: 100%;
+    padding: 60px;
+    float: left;
+    border-top: 5px solid #fdc029;
+    border-bottom: 5px solid #fdc029;
+}
+
+#matt-car {
+    width: 40%;
+    float: left;
+    padding: 30px;
+    margin-left: 40px;
+    overflow: hidden;
+}
+
+#wendy-car {
+    width: 40%;
+    float: left;
+    padding: 30px;
 }
