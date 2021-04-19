@@ -300,6 +300,10 @@ hr {
 
 /* time and locations text */
 
+#time-location {
+    height: 400px;
+}
+
 #time-location h2 {
     font-family: oswald, sans-serif;
     text-align: center;
@@ -317,17 +321,17 @@ hr {
 
 /* footer & social links */
 footer {
-    height: 800px;
-    padding-top: 200px;
+    height: 400px;
 }
 
 .social-links {
     text-align: center;
-    padding-top: 75px;
+    padding-top: 500px;
 }
 
 .social-links li {
     display: inline;
+    padding-top: 75px;
 }
 
 .social-links a {
