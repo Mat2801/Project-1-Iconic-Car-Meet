@@ -1,4 +1,7 @@
-##Iconic Car Meets
+#Iconic Car Meets
+
+###Project Portfolio 1 - HTML/CSS Essentials
+
 This is a website based on an imagined nationwide car meet where people from all around the nation that own iconic cars, 
 can meet up have a chat and show off their cars. This website will be to attract member of the public who are car enthusiasts 
 especially those who like iconic cars. There will be stand out images of some of the most iconic cars throughout the website and 
