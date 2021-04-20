@@ -77,6 +77,7 @@ elsewhere online and can be in any format that is viewable inside the browser.
 - gitpod
 - GitHub
 - Funkypic 
+- Unsplash
 - HTML
 - CSS
 
@@ -122,6 +123,7 @@ Separate git branch?
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
 # Credits
+- Youtube channel True Coder for help with my contact from.
 Content
 The text for section Y was copied from the Wikipedia article Z
 # Media
