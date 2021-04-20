@@ -7,15 +7,15 @@
     margin: 0;
     border: none;
     box-sizing: border-box;
-    font-family: odwald, sans-serif;
+    font-family: Odwald, sans-serif;
 }
 
 /* adding font family and colour to all text unspecified */
 body {
     width: 100%;
-    font-family: Odwald, sans-serif;
     font-weight: 300;
     background-color: black;
+    font-family: Odwald, sans-serif;
 }
 
 /* header and logo */
@@ -72,6 +72,8 @@ body {
 #landing-text,
 #landing-text h2 {
     color: #fff;
+    font-size: 25px;
+
 }
 
 #landing-img {
@@ -354,7 +356,7 @@ h4 {
 /* about matt section on about us page */
 
 #about-matt-section {
-    height: 450px;
+    height: 525px;
     width: 100%;
     padding: 30px;
     float: left;
@@ -386,7 +388,7 @@ h4 {
 /* about wendy section on about us page */
 
 #about-wendy-section {
-    height: 450px;
+    height: 525px;
     width: 100%;
     padding: 30px;
     float: left;
@@ -430,7 +432,7 @@ h4 {
     width: 40%;
     float: left;
     padding: 30px;
-    margin-left: 40px;
+    margin-left: 150px;
     overflow: hidden;
 }
 
