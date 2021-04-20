@@ -440,6 +440,20 @@ h4 {
     padding: 30px;
 }
 
+/* gallery page */
+.gallery {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+    border-top: 5px solid #fdc029;
+}
+
+.gallery>img {
+    width: 100%;
+    border: 2px solid #fdc029;
+}
+
 /*contact us page*/
 
 .contact-container {
