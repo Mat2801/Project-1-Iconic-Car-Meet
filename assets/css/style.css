@@ -481,6 +481,7 @@ h4 {
 .contact-box h2 {
     position: relative;
     color: #fff;
+    text-transform: uppercase;
     margin-bottom: 10px;
     padding-bottom: 10px;
 }
