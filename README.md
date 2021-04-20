@@ -65,7 +65,7 @@ Features Left to Implement
 Another feature idea
 - 
 
-```Wireframes``` and Mock write ups can be found here (Link will go here)
+```Wireframes and Mock write ups``` can be found here (Link will go here)
 
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. 
 These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted 
@@ -98,7 +98,7 @@ Try to submit the form with an invalid email address and verify that a relevant 
 Try to submit the form with all inputs valid and verify that a success message appears.
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
-#bugs
+# Bugs
 - tried to turn the images into star shapes, managed to create a star shape but not with the image it appeared in the background
 reverted to circles 
 - time and location tiles images wouldn't center. fixed by manually resizing images and putting images into css instead of html
@@ -111,7 +111,7 @@ You should also mention in this section any interesting bugs or problems you dis
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
-Deployment
+# Deployment
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
 In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
@@ -121,11 +121,11 @@ Different configuration files?
 Separate git branch?
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
-Credits
+# Credits
 Content
 The text for section Y was copied from the Wikipedia article Z
-Media
+# Media
 - Personal images taken myself and edited using funkypic and windows editor.
 The photos used in this site were obtained from ...
-Acknowledgements
+# Acknowledgements
 I received inspiration for this project from X
