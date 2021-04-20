@@ -1,23 +1,46 @@
-<h1>Iconic Car Meets</h1>
+# Iconic Car Meets
 
-<h3>Project Portfolio 1 - HTML/CSS Essentials</h3>
+### Project Portfolio 1 - HTML/CSS Essentials
 
 This is a website based on an imagined nationwide car meet where people from all around the nation that own iconic cars, 
 can meet up have a chat and show off their cars. This website will be to attract member of the public who are car enthusiasts 
 especially those who like iconic cars. There will be stand out images of some of the most iconic cars throughout the website and 
-especially on our gallery page where you will also find videos. 
-We will have some pictures and videos from our recent car meets and a schedule for when the next meets will take place. 
-With a very easy book in system where you can register to take part in our meets and take your place. We will also have a free survey 
-where you can take part to be in with a chance to win some free merchandice.
+especially on our gallery page. We will have some pictures and videos from our recent car meets and a schedule for when the next meets will take place. 
+With a very easy book in system where you can register to take part in our meets and take your place.
 
-UX
+## Demo 
+Here you can find a demo of my website (link will go here)
+
+# UX
+I have chosen to base my project around iconic cars as they are a huge intrest to me and something i can relate to easily. There 
+is also a very large gap on the internet regarding car shows and locations, the primary focus of this website is to allow full 
+functional interaction with its users to allow for a quick and easy user experience. 
+My main goal was to create an easily interactive website to allow users to gain easy accesibility to information they require without
+any hassle. I choose to use a simple layout using an attractive landing page image to catch users attention. I opted for a colour scheme
+of Black and Orange, the reason for this is i feel darker screens are easier on the eyes and also orange compliments the black to create 
+a welcoming feeling. 
+
 This websites users are intrested in iconic cars and locations of iconic car meets as well as get a little bit of information regarding the
-car meets and who runs them.
+car meets and who runs them. The site owners goal is to provide a webpage that allows users to read a reliable source of information regard iconic car meets e.g 
+(location, time, date) and information on rules and regulations in place during car meets. 
 
-The site owners goal is to provide a webpage that allows users to read a reliable source of information regard iconic car meets e.g 
-(location, time, date)
-and information on rules and regulations in place during car meets. 
+- Home page, the user lands on this page and can see an image of a huge car show, with a small message which is linked to the location section.
+- For users intrested in who organises these car meets they can read short information on the home page or can head to the about us page for 
+  more information.
+- If a user is intrested but unsure about anything involving the car meets there is an easily accesible contact us page. They can simply send 
+  a question via filing in a short form. 
+- Any user intrested in seeing updates and future car meets can sign up to the website by navigating to the sign up page. Again filling out a
+  simple form. 
+- The gallery page is where the user wants to go to see some of the previous meets and incredble iconic cars.
+- Nearly every part of this website has short navigation via the homepage. 
 
+### Clickable navigation on the home page
+- Text box in landing image where the car icon is shown link to the times and locations. 
+- Landing image click this to navigate to the gallery. 
+- Both owners pictures link to the about us page. 
+- Locations and times boxes link to a map of the location.
+ 
+# Features
 We are hoping to include features such as
 - Event schedule / calander.
 - Reliable information regarding car meets 
