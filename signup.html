@@ -38,7 +38,49 @@
         </nav>
         </div>
     </header>
-    <h1>sign up</h1>
+    <!--sign up form-->
+    <section class="form-section">
+        <form class="signup-form" method="POST" action="https://formdump.codeinstitute.net/">
+            <h2>Sign up to get involved</h2>
+
+            <label for="fname">First Name</label>
+            <input id="fname" type="text" name="first_name" required>
+
+            <label class="sname">Surename</label>
+            <input id="sname" type="text" name="surname" required>
+
+            <label for="gender">Gender</label>
+            <select id="gender" name="gender" required>
+                <option value="female">Female</option>
+                <option value="male">Male</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email_address" required>
+
+            <h3>Do you own an iconic car?</h3>
+            <label for="yes">Yes</label>
+            <input id="yes" type="radio" name="yes_option" value="yes">
+            <label for="no">No</label>
+            <input id="no" type="radio" name="no_option" value="no">
+
+            <h3>Are you intrested in Iconic cars?</h3>
+            <label for="yes">Yes</label>
+            <input id="yes" type="radio" name="yes_option" value="yes">
+            <label for="no">No</label>
+            <input id="no" type="radio" name="no_option" value="no">
+
+            </h3>Will you be attending meets?</h3>
+            <label for="yes">Yes</label>
+            <input id="yes" type="radio" name="yes_option" value="yes">
+            <label for="no">No</label>
+            <input id="no" type="radio" name="no_option" value="no">
+
+            <input id="signup-btn" type="submit" value="SIGN UP!">
+
+        </form>
+    </section>
     <!--footer & social network links-->
     <footer>
         <ul class="social-links">
