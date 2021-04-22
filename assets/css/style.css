@@ -73,7 +73,12 @@ body {
 #landing-text h2 {
     color: #fff;
     font-size: 25px;
+    text-align: center;
 
+}
+
+#landing-text a {
+    color: #fff;
 }
 
 #landing-img {
@@ -90,12 +95,11 @@ body {
 #landing-text {
     font-family: oswald, sans-serif;
     font-size: 150%;
-    text-transform: uppercase;
 
     width: 450px;
-    height: 145px;
+    height: 50px;
 
-    padding-top: 30px;
+    padding-top: 40px;
     padding-left: 10px;
 
     background-color: rgba(253, 192, 41, .7);
@@ -104,6 +108,7 @@ body {
     left: 35%;
 
     position: absolute;
+    border-radius: 2%;
 }
 
 #landing-text {
@@ -301,6 +306,18 @@ hr {
     background-position: center;
     background-size: cover;
     overflow: hidden;
+}
+
+#map {
+
+    height: 400px;
+    border-bottom: 5px solid #fdc029;
+}
+
+#map-img {
+    height: 100%;
+    width: 100%;
+    border: none;
 }
 
 /* time and locations text */

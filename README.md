@@ -5,8 +5,8 @@
 This is a website based on an imagined nationwide car meet where people from all around the nation that own iconic cars, 
 can meet up have a chat and show off their cars. This website will be to attract member of the public who are car enthusiasts 
 especially those who like iconic cars. There will be stand out images of some of the most iconic cars throughout the website and 
-especially on our gallery page. We will have some pictures and videos from our recent car meets and a schedule for when the next meets will take place. 
-With a very easy book in system where you can register to take part in our meets and take your place.
+especially on our gallery page. We will have some pictures from our recent car meets and a schedule for when the next meets will take place. 
+With a very easy system where you can register to take part in our meets.
 
 ## Demo 
 Here you can find a demo of my website (link will go here)
@@ -21,8 +21,8 @@ of Black and Orange, the reason for this is i feel darker screens are easier on 
 a welcoming feeling. 
 
 This websites users are intrested in iconic cars and locations of iconic car meets as well as get a little bit of information regarding the
-car meets and who runs them. The site owners goal is to provide a webpage that allows users to read a reliable source of information regard iconic car meets e.g 
-(location, time, date) and information on rules and regulations in place during car meets. 
+car meets and who runs them. The site owners goal is to provide a webpage that allows users to read a reliable source of information regard 
+iconic car meets e.g (location, time, date). 
 
 - Home page, the user lands on this page and can see an image of a huge car show, with a small message which is linked to the location section.
 - For users intrested in who organises these car meets they can read short information on the home page or can head to the about us page for 
@@ -38,7 +38,6 @@ car meets and who runs them. The site owners goal is to provide a webpage that a
 - Text box in landing image where the car icon is shown link to the times and locations. 
 - Landing image click this to navigate to the gallery. 
 - Both owners pictures link to the about us page. 
-- Locations and times boxes link to a map of the location.
 - Social media links.
 
 ### User Stories
@@ -63,7 +62,9 @@ As a user type, I want to perform an action, so that I can achieve a goal.
 In the future these features could be added to improve user experience. 
 Features Left to Implement
 Another feature idea
-- 
+- forum could be added to allow users to communicate with each other. 
+- A more improved gallery with a carousel could be used for the gallery page. 
+- Memebership area could be added for paying memebers.
 
 ```Wireframes and Mock write ups``` can be found [here](https://drive.google.com/drive/folders/1uIGPxjE4VvPzef1UZPZA6M2fdmo0NrP8?usp=sharing)
 
@@ -123,11 +124,10 @@ Separate git branch?
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
 # Credits
-- Youtube channel True Coder for help with my contact from.
-Content
+
 The text for section Y was copied from the Wikipedia article Z
 # Media
 - Personal images taken myself and edited using funkypic and windows editor.
-The photos used in this site were obtained from ...
+- unsplash 
 # Acknowledgements
 I received inspiration for this project from X
