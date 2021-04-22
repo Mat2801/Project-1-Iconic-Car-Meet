@@ -39,45 +39,43 @@
         </div>
     </header>
     <!--sign up form-->
-    <section class="form-section">
-        <form class="signup-form" method="POST" action="https://formdump.codeinstitute.net/">
-            <h2>Sign up to get involved</h2>
+    <section>
+        <form class="form-container" method="POST" action="https://formdump.codeinstitute.net/">
+            <div class="form-box">
+                <div class="signup-left"></div>
+                <div class="form-right">
+                    <h2>Sign up to get involved</h2>
 
-            <label for="fname">First Name</label>
-            <input id="fname" type="text" name="first_name" required>
+                    <input id="fname" type="text" name="full_name" class="field" placeholder="Full Name" required>
 
-            <label class="sname">Surename</label>
-            <input id="sname" type="text" name="surname" required>
+                    <input id="email" type="email" name="email_address" class="field" placeholder="Email Address"
+                        required>
 
-            <label for="gender">Gender</label>
-            <select id="gender" name="gender" required>
-                <option value="female">Female</option>
-                <option value="male">Male</option>
-                <option value="other">Other</option>
-            </select>
+                    <select id="gender" name="gender" class="field" placeholder="Gender" required>
+                        <option value="female">Female</option>
+                        <option value="male">Male</option>
+                        <option value="other">Other</option>
+                    </select>
 
-            <label for="email">Email</label>
-            <input id="email" type="email" name="email_address" required>
+                    <h3>Do you own an iconic car?</h3>
+                    <label class="yes" for="yes">Yes</label>
+                    <input id="yes" type="radio" name="yes_option" value="yes" class="field">
+                    <label class="no" for="no">No</label>
+                    <input id="no" type="radio" name="no_option" value="no" class="field">
 
-            <h3>Do you own an iconic car?</h3>
-            <label for="yes">Yes</label>
-            <input id="yes" type="radio" name="yes_option" value="yes">
-            <label for="no">No</label>
-            <input id="no" type="radio" name="no_option" value="no">
+                    <h3>Are you intrested in Iconic cars?</h3>
+                    <label class="yes" for="yes">Yes</label>
+                    <input id="yes" type="radio" name="yes_option" value="yes" class="field">
+                    <label class="no" for="no">No</label>
+                    <input id="no" type="radio" name="no_option" value="no" class="field">
 
-            <h3>Are you intrested in Iconic cars?</h3>
-            <label for="yes">Yes</label>
-            <input id="yes" type="radio" name="yes_option" value="yes">
-            <label for="no">No</label>
-            <input id="no" type="radio" name="no_option" value="no">
+                    <h3>Will you be attending meets?</h3>
+                    <label class="yes" for="yes">Yes</label>
+                    <input id="yes" type="radio" name="yes_option" value="yes" class="field">
+                    <label class="no" for="no">No</label>
+                    <input id="no" type="radio" name="no_option" value="no" class="field">
 
-            </h3>Will you be attending meets?</h3>
-            <label for="yes">Yes</label>
-            <input id="yes" type="radio" name="yes_option" value="yes">
-            <label for="no">No</label>
-            <input id="no" type="radio" name="no_option" value="no">
-
-            <input id="signup-btn" type="submit" value="SIGN UP!">
+                    <input id="signup-btn" type="submit" value="SIGN UP!" class="btn">
 
         </form>
     </section>

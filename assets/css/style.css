@@ -453,21 +453,21 @@ h4 {
     border: 2px solid #fdc029;
 }
 
-/*contact us page*/
+/*contact us page and sign up form*/
 
-.contact-container {
+.form-container {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 800px;
+    height: 1000px;
     padding: 20px 100px;
     border-top: 5px solid #fdc029;
     border-bottom: 5px solid #fdc029;
 }
 
-.contact-container:after {
+.form-container:after {
     content: '';
     position: absolute;
     left: 0;
@@ -480,7 +480,7 @@ h4 {
     filter: blur(50px);
 }
 
-.contact-box {
+.form-box {
     max-width: 850px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -492,7 +492,7 @@ h4 {
     border: 2px solid #fdc029;
 }
 
-.contact-box h2 {
+.form-box h2 {
     position: relative;
     color: #fff;
     text-transform: uppercase;
@@ -500,7 +500,7 @@ h4 {
     padding-bottom: 10px;
 }
 
-.contact-box h2::after {
+.form-box h2::after {
     content: '';
     position: absolute;
     left: 50%;
@@ -512,20 +512,44 @@ h4 {
     background-color: #fdc029;
 }
 
-.contact-left {
+.form-box h3 {
+    position: relative;
+    color: #fff;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.form-box h3::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 50px;
+    border-radius: 2px;
+    background-color: #fdc029;
+}
+
+.form-left {
     height: 100%;
     background: url(../images/contact/Contactform.jpg) no-repeat center;
     background-size: cover;
 }
 
-.contact-right {
+.signup-left {
+    height: 100%;
+    background: url(../images/signup/signup.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.form-right {
     padding: 25px 40px;
 }
 
 .field {
     width: 100%;
     padding: 0.5rem 1rem;
-    background-color: rgba(230, 230, 230, 0.6);
     font-size: 1.1rem;
     margin-bottom: 22px;
     transition: 0.3s;
@@ -540,6 +564,11 @@ h4 {
 .field:focus {
     background-color: #fff;
     border: 2px solid rgba (30, 85, 250, 0.47);
+}
+
+.yes,
+.no {
+    color: #fff;
 }
 
 .area {
@@ -562,6 +591,8 @@ h4 {
 .btn:hover {
     background-color: rgba(253, 192, 41, .7)
 }
+
+
 
 /* screens smaller than 880px */
 @media screen and (max-width: 880px) {
