@@ -49,7 +49,7 @@ As a user type, I want to perform an action, so that I can achieve a goal.
  
 # Features
 - Event location and times.
-- Click through gallery.
+- Gallery.
 - Reliable information regarding car meets. 
 - Images from previous car meets. 
 - sign up for a newsletter?.

@@ -326,23 +326,21 @@ hr {
 
 /* footer & social links */
 footer {
-    height: 400px;
+    height: 100px;
 }
 
 .social-links {
     text-align: center;
-    padding-top: 500px;
 }
 
-.social-links li {
+.social-links>li {
     display: inline;
-    padding-top: 75px;
 }
 
-.social-links a {
-    font-size: 50px;
-    margin: 5%;
-    padding: 2%;
+.social-links i {
+    font-size: 260%;
+    margin: 1%;
+    padding: 5%;
     color: #fdc029;
 }
 
@@ -350,7 +348,6 @@ h4 {
     font-size: 15px;
     color: #fff;
     text-align: center;
-    padding-top: 3%;
 }
 
 /* about matt section on about us page */
