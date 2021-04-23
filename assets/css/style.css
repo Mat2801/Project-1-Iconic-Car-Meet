@@ -149,7 +149,7 @@ body {
 /* meet the team */
 
 .meet-the-team {
-    height: 800px;
+    height: 1000px;
     width: 100%;
 }
 
@@ -177,8 +177,9 @@ hr {
     float: right;
     line-height: 20px;
     clear: both;
-    margin: 50px;
+    margin: 50px 0px 50px 30px;
     color: #fff;
+
 }
 
 .left-section-img {
@@ -191,7 +192,8 @@ hr {
 }
 
 .left-section-text p {
-    text-align: center;
+    text-align: left;
+    font-size: 20px;
     font-family: montserrat, sans-serif;
 }
 
@@ -225,7 +227,8 @@ hr {
 }
 
 .right-section-text p {
-    text-align: center;
+    text-align: left;
+    font-size: 20px;
     font-family: montserrat, sans-serif;
 }
 
@@ -239,6 +242,7 @@ hr {
     float: left;
     padding-top: 30px;
     padding-left: 10px;
+    margin-top: 18px;
     border: 5px solid #fdc029;
     box-sizing: border-box;
     background-image: url(../images/home/collection.jpg);
@@ -308,18 +312,6 @@ hr {
     overflow: hidden;
 }
 
-#map {
-
-    height: 400px;
-    border-bottom: 5px solid #fdc029;
-}
-
-#map-img {
-    height: 100%;
-    width: 100%;
-    border: none;
-}
-
 /* time and locations text */
 
 #time-location {
@@ -328,6 +320,7 @@ hr {
 
 #time-location h2 {
     font-family: oswald, sans-serif;
+    font-weight: 900;
     text-align: center;
     color: #fdc029;
     font-size: 50px;
@@ -336,9 +329,11 @@ hr {
 
 #time-location h3 {
     font-family: oswald, sans-serif;
+    font-weight: 800;
     text-align: center;
     color: #fdc029;
     font-size: 30px;
+    text-shadow: 3px 0 black;
 }
 
 /* footer & social links */
@@ -378,7 +373,7 @@ h4 {
 }
 
 #about-matt-img {
-    width: 40%;
+    width: 30%;
     float: left;
     padding: 30px;
 }
@@ -389,14 +384,12 @@ h4 {
     padding: 30px;
 }
 
-#about-matt-text h2 {
-    color: #fff;
-    text-align: center;
-}
-
 #about-matt-text p {
     color: #fff;
-    text-align: center;
+    font-size: 20px;
+    text-align: left;
+    position: absolute;
+    padding-right: 100px;
 }
 
 /* about wendy section on about us page */
@@ -410,7 +403,7 @@ h4 {
 }
 
 #about-wendy-img {
-    width: 40%;
+    width: 30%;
     float: left;
     padding: 30px;
 }
@@ -421,14 +414,12 @@ h4 {
     padding: 30px;
 }
 
-#about-wendy-text h2 {
-    color: #fff;
-    text-align: center;
-}
-
 #about-wendy-text p {
     color: #fff;
-    text-align: center;
+    font-size: 20px;
+    text-align: left;
+    position: absolute;
+    padding-right: 100px;
 }
 
 /* about the owners cars */
@@ -607,6 +598,18 @@ h4 {
 
 .btn:hover {
     background-color: rgba(253, 192, 41, .7)
+}
+
+#map {
+
+    height: 400px;
+    border-bottom: 5px solid #fdc029;
+}
+
+#map-img {
+    height: 100%;
+    width: 100%;
+    border: none;
 }
 
 
