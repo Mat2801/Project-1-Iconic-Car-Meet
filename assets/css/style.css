@@ -571,7 +571,7 @@ h4 {
 
 .field:focus {
     background-color: #fff;
-    border: 2px solid rgba (30, 85, 250, 0.47);
+    border: 2px solid #fdc029;
 }
 
 .yes,
