@@ -9,7 +9,7 @@ especially on our gallery page. We will have some pictures from our recent car m
 With a very easy system where you can register to take part in our meets.
 
 ## Demo 
-Here you can find a demo of my website (link will go here)
+Here you can find a demo of my website (link will go [here](https://mat2801.github.io/Project-1-Iconic-Car-Meet/)
 
 # UX
 I have chosen to base my project around iconic cars as they are a huge intrest to me and something i can relate to easily. There 
@@ -68,10 +68,6 @@ Another feature idea
 
 ```Wireframes and Mock write ups``` can be found [here](https://drive.google.com/drive/folders/1uIGPxjE4VvPzef1UZPZA6M2fdmo0NrP8?usp=sharing)
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. 
-These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted 
-elsewhere online and can be in any format that is viewable inside the browser.
-
 # Technologies Used
 - w3s
 - developer mozilla
@@ -109,11 +105,14 @@ reverted to circles
 - trying to fade images for location and time using rbga background colour but not working
 - times and location images not lining up correctly, one is a little lower than all the rest.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
 # Deployment
+1. Load up GitHub
+2. choose my project i want to deploy
+3. Head over to settings
+4. Now click on the Pages tab
+5. There will be a drop down box with none written in it. Click this and select Master branch
+6. Now save and refresh your page and your website is hosted on github
+
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
 In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
@@ -130,4 +129,6 @@ The text for section Y was copied from the Wikipedia article Z
 - Personal images taken myself and edited using funkypic and windows editor.
 - unsplash 
 # Acknowledgements
-I received inspiration for this project from X
+I received inspiration for this project as i am a car enthusiast and i attend many car shows. I thought this could be the beginning of a much 
+bigger website where all car meets and shows could be placed online for everyone to see and attend also possibly book there tickets or purchase
+tickets. 
