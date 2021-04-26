@@ -161,6 +161,14 @@ body {
     animation-duration: 5s;
 }
 
+/* screens 750px wide */
+@media screen and (max-width: 750px) {
+    #landing-img {
+        height: 400px;
+        width: 60%;
+    }
+}
+
 /* create's the level of zoom for the image */
 
 @keyframes landing-img-zoom {
@@ -271,6 +279,9 @@ hr {
     font-size: 20px;
     font-family: montserrat, sans-serif;
 }
+
+/* screen size 750px */
+
 
 /* background image for time and location section */
 
@@ -499,6 +510,13 @@ h4 {
 .gallery>img {
     width: 100%;
     border: 2px solid #fdc029;
+}
+
+/*screen sizes 850px or smaller*/
+@media screen and (max-width:850px) {
+    .gallery {
+        column-count: 3;
+    }
 }
 
 /*contact us page and sign up form*/

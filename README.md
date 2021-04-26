@@ -9,7 +9,7 @@ especially on our gallery page. We will have some pictures from our recent car m
 With a very easy system where you can register to take part in our meets.
 
 ## Demo 
-Here you can find a demo of my website [here](https://mat2801.github.io/Project-1-Iconic-Car-Meet/)
+Here you can find a demo of my website [here](https://mat2801.github.io/project1-Iconic-Car-Meet/)
 
 # UX
 I have chosen to base my project around iconic cars as they are a huge intrest to me and something i can relate to easily. There 
