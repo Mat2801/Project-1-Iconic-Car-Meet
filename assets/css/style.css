@@ -29,6 +29,7 @@ body {
 
 #nav-menu {
     font-size: 25px;
+    float: right;
 }
 
 #nav-menu,
@@ -57,6 +58,44 @@ body {
     color: #fdc029;
 }
 
+/* screens 750px wide */
+@media screen and (max-width: 750px) {
+
+    #logo {
+        max-height: 66px;
+        max-width: 150px;
+        width: 100%;
+    }
+
+
+    #nav-menu {
+        font-size: 10px;
+        width: 100%;
+    }
+
+    #nav-menu,
+    #logo {
+        line-height: 60px;
+    }
+}
+
+/* screens 450px wide */
+@media screen and (max-width: 450px) {
+
+    #logo {
+        max-height: 66px;
+        max-width: 150px;
+        width: 100%;
+        margin-left: 20%;
+    }
+
+
+    #nav-menu {
+        font-size: 7px;
+        width: 100%;
+    }
+}
+
 /* main video/image and landing text */
 
 #landing-outer {
@@ -65,6 +104,7 @@ body {
     overflow: hidden;
     border-bottom: 5px solid #fdc029;
     border-top: 5px solid #fdc029;
+    background-size: cover;
 
     position: relative;
 }
@@ -612,10 +652,12 @@ h4 {
     border: none;
 }
 
+/* medium to large screens 1200px */
 
 
 /* screens smaller than 880px */
 @media screen and (max-width: 880px) {
+
     .contact-box {
         grid-template-columns: 1fr;
     }
@@ -623,4 +665,5 @@ h4 {
     .contact-left {
         height: 200px;
     }
+
 }
