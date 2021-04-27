@@ -58,44 +58,6 @@ body {
     color: #fdc029;
 }
 
-/* screens 750px wide */
-@media screen and (max-width: 750px) {
-
-    #logo {
-        max-height: 66px;
-        max-width: 150px;
-        width: 100%;
-    }
-
-
-    #nav-menu {
-        font-size: 10px;
-        width: 100%;
-    }
-
-    #nav-menu,
-    #logo {
-        line-height: 60px;
-    }
-}
-
-/* screens 450px wide */
-@media screen and (max-width: 450px) {
-
-    #logo {
-        max-height: 66px;
-        max-width: 150px;
-        width: 100%;
-        margin-left: 20%;
-    }
-
-
-    #nav-menu {
-        font-size: 7px;
-        width: 100%;
-    }
-}
-
 /* main video/image and landing text */
 
 #landing-outer {
@@ -153,29 +115,6 @@ body {
     animation-duration: 5s;
 }
 
-/* screens 1100px wide */
-@media screen and (max-width: 1100px) {
-    #landing-text {
-        left: 10%;
-        top: 50%;
-        width: 350px;
-    }
-}
-
-@media screen and (max-width: 750px) {
-    #landing-text {
-        left: 10%;
-        top: 30%;
-    }
-}
-
-@media screen and (max-width: 550px) {
-    #landing-text {
-        font-size: 100%;
-        width: 260px;
-    }
-}
-
 /* create's the level of zoom for the image */
 
 @keyframes landing-img-zoom {
@@ -209,86 +148,77 @@ body {
 }
 
 #left-section {
-    width: 40%;
+    width: 50%;
     float: left;
     padding: 30px;
 }
 
 #right-section {
-    width: 40%;
+    width: 50%;
     float: right;
     padding: 30px;
 }
 
-hr {
-    border-top: 2px solid #fdc029;
-    margin: 5px;
-    width: 100%;
-}
-
 /* Left section text and image */
 .left-section-text {
-    width: 60%;
-    float: right;
-    line-height: 20px;
+    margin-top: 30px;
     clear: both;
-    margin: 50px 0px 50px 30px;
     color: #fff;
 
 }
 
 .left-section-img {
-    padding-left: 180px;
+    padding-left: 240px;
     padding-top: 60px;
 }
 
 .left-section-text h2 {
     text-align: center;
+    margin-left: 150px;
+    border-bottom: 2px solid #fdc029;
 }
 
 .left-section-text p {
-    text-align: left;
+    text-align: center;
     font-size: 20px;
     font-family: montserrat, sans-serif;
+    padding-left: 150px;
 }
 
 .circle-container {
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     border-style: none;
     border-color: #cccccc;
-    border-width: 1px;
+    border-width: 2px;
     border-radius: 50%;
     margin: 0 auto;
 }
 
 /* right section text and image */
 .right-section-text {
-    width: 60%;
-    float: left;
-    line-height: 20px;
     clear: both;
-    margin: 50px 50px 50px 20px;
+    margin-top: 30px;
     color: #fff;
-    text-align: center;
 }
 
 .right-section-img {
     padding-top: 60px;
+    padding-left: 80px;
 }
 
 .right-section-text h2 {
     text-align: center;
+    margin-right: 150px;
+    border-bottom: 2px solid #fdc029;
 }
 
 .right-section-text p {
-    text-align: left;
+    text-align: center;
     font-size: 20px;
     font-family: montserrat, sans-serif;
+    padding-right: 150px;
 }
-
-/* screen size 750px */
-
 
 /* background image for time and location section */
 
@@ -434,12 +364,14 @@ h4 {
     width: 30%;
     float: left;
     padding: 30px;
+    margin: 30px;
 }
 
 #about-matt-text {
     width: 40%;
     float: left;
     padding: 30px;
+    margin: 30px;
 }
 
 #about-matt-text p {
@@ -448,6 +380,7 @@ h4 {
     text-align: left;
     position: absolute;
     padding-right: 100px;
+    padding-left: 10px;
 }
 
 /* about wendy section on about us page */
@@ -464,12 +397,14 @@ h4 {
     width: 30%;
     float: left;
     padding: 30px;
+    margin: 30px;
 }
 
 #about-wendy-text {
     width: 40%;
     float: left;
     padding: 30px;
+    margin: 30px;
 }
 
 #about-wendy-text p {
@@ -478,6 +413,7 @@ h4 {
     text-align: left;
     position: absolute;
     padding-right: 100px;
+    padding-left: 10px;
 }
 
 /* about the owners cars */
@@ -517,13 +453,6 @@ h4 {
 .gallery>img {
     width: 100%;
     border: 2px solid #fdc029;
-}
-
-/*screen sizes 850px or smaller*/
-@media screen and (max-width:850px) {
-    .gallery {
-        column-count: 3;
-    }
 }
 
 /*contact us page and sign up form*/
@@ -677,11 +606,111 @@ h4 {
     border: none;
 }
 
-/* medium to large screens 1200px */
+
+/* screens 1200px wide */
+@media screen and (max-width: 1200px) {
+    #landing-text {
+        left: 10%;
+        top: 50%;
+        width: 350px;
+    }
+
+    .circle-container {
+        width: 200px;
+        height: 200px;
+    }
+
+    .left-section-text p {
+        font-size: 15px;
+    }
+
+    .left-section-text h2 {
+        font-size: 20px;
+    }
+
+    .right-section-text p {
+        font-size: 15px;
+    }
+
+    .right-section-text h2 {
+        font-size: 20px;
+    }
+
+    .left-section-img {
+        padding-right: 40px;
+    }
+
+    #about-matt-text p {
+        font-size: 15px;
+        padding-left: 50px;
+    }
+
+    #matt {
+        width: 300px;
+        height: 300px;
+    }
+
+    #about-wendy-text p {
+        font-size: 15px;
+        padding-left: 50px;
+    }
+
+    #wendy {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+/* screens 750px wide */
+@media screen and (max-width: 750px) {
+
+    #logo {
+        max-height: 66px;
+        max-width: 150px;
+        width: 100%;
+    }
 
 
-/* screens smaller than 880px */
-@media screen and (max-width: 880px) {
+    #nav-menu {
+        font-size: 10px;
+        width: 100%;
+    }
+
+    #nav-menu,
+    #logo {
+        line-height: 60px;
+    }
+
+    #landing-text {
+        left: 10%;
+        top: 30%;
+    }
+
+    .circle-container {
+        width: 200px;
+        height: 200px;
+    }
+
+    .left-section-text p {
+        font-size: 10px;
+    }
+
+    .left-section-text h2 {
+        font-size: 15px;
+    }
+
+
+    .right-section-text p {
+        font-size: 10px;
+    }
+
+    .right-section-text h2 {
+        font-size: 15px;
+    }
+
+    .gallery {
+        column-count: 3;
+    }
 
     .contact-box {
         grid-template-columns: 1fr;
@@ -691,4 +720,78 @@ h4 {
         height: 200px;
     }
 
+    #time-location h2 {
+        font-size: 20px;
+    }
+
+    #time-location h3 {
+        font-size: 15px;
+    }
+
+    #collection-cars {
+        margin-top: 18px;
+    }
+
+    #about-matt-text p {
+        font-size: 11px;
+        padding-left: 50px;
+    }
+
+    #matt {
+        width: 200px;
+        height: 200px;
+    }
+
+    #about-wendy-text p {
+        font-size: 11px;
+        padding-left: 50px;
+    }
+
+    #wendy {
+        width: 200px;
+        height: 200px;
+
+    }
+}
+
+/* screens 550px wide */
+@media screen and (max-width: 550px) {
+
+    #logo {
+        max-height: 66px;
+        max-width: 150px;
+        width: 100%;
+        margin-left: 20%;
+    }
+
+
+    #nav-menu {
+        font-size: 7px;
+        width: 100%;
+    }
+
+    #landing-text {
+        font-size: 100%;
+        width: 260px;
+    }
+
+    #about-matt-text p {
+        font-size: 8px;
+        padding-left: 20px;
+    }
+
+    #matt {
+        width: 100px;
+        height: 100px;
+    }
+
+    #about-wendy-text p {
+        font-size: 11px;
+        padding-left: 20px;
+    }
+
+    #wendy {
+        width: 100px;
+        height: 100px;
+    }
 }
