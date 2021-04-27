@@ -104,9 +104,6 @@ body {
     overflow: hidden;
     border-bottom: 5px solid #fdc029;
     border-top: 5px solid #fdc029;
-    background-size: cover;
-
-    position: relative;
 }
 
 #landing-text,
@@ -124,6 +121,8 @@ body {
 #landing-img {
     height: 600px;
     width: 100%;
+    overflow: hidden;
+    background: url(../images/home/landingimg.jpg);
 
     /* animation effect on landing image */
 
@@ -135,25 +134,18 @@ body {
 #landing-text {
     font-family: oswald, sans-serif;
     font-size: 150%;
-
+    height: 150px;
     width: 450px;
-    height: 50px;
 
     padding-top: 40px;
     padding-left: 10px;
 
     background-color: rgba(253, 192, 41, .7);
 
-    top: 50px;
+    top: 30%;
     left: 35%;
-
     position: absolute;
     border-radius: 2%;
-}
-
-#landing-text {
-    height: 145px;
-    width: 450px;
 
     /* animation effect on landing text */
 
@@ -161,11 +153,26 @@ body {
     animation-duration: 5s;
 }
 
-/* screens 750px wide */
+/* screens 1100px wide */
+@media screen and (max-width: 1100px) {
+    #landing-text {
+        left: 10%;
+        top: 50%;
+        width: 350px;
+    }
+}
+
 @media screen and (max-width: 750px) {
-    #landing-img {
-        height: 400px;
-        width: 60%;
+    #landing-text {
+        left: 10%;
+        top: 30%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    #landing-text {
+        font-size: 100%;
+        width: 260px;
     }
 }
 
