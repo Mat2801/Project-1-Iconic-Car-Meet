@@ -84,7 +84,6 @@ body {
     height: 600px;
     width: 100%;
     overflow: hidden;
-    background: url(../images/home/landingimg.jpg);
 
     /* animation effect on landing image */
 
@@ -140,52 +139,55 @@ body {
     }
 }
 
-/* meet the team */
+/* join the club */
 
-.meet-the-team {
-    height: 1000px;
-    width: 100%;
+#meet-the-team {
+    height: 600px;
 }
 
-#left-section {
-    width: 50%;
-    float: left;
-    padding: 30px;
-}
-
-#right-section {
-    width: 50%;
-    float: right;
-    padding: 30px;
-}
-
-/* Left section text and image */
-.left-section-text {
-    margin-top: 30px;
-    clear: both;
+#join {
     color: #fff;
-
-}
-
-.left-section-img {
-    padding-left: 240px;
-    padding-top: 60px;
-}
-
-.left-section-text h2 {
     text-align: center;
-    margin-left: 150px;
+    font-size: 300%;
+    margin: 40px;
+    text-transform: uppercase;
+}
+
+#mtt-left-text {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    color: #fff;
+    background-color: aqua;
+
+}
+
+#mtt-right-text {
+    width: 33%;
+    float: right;
+    color: #fff;
+    background-color: blue;
+}
+
+#mtt-img {
+    width: 33%;
+    margin: 0 auto;
+    background-color: chartreuse;
+}
+
+#mtt-left-text h2,
+#mtt-right-text h2 {
+    text-align: center;
     border-bottom: 2px solid #fdc029;
 }
 
-.left-section-text p {
+#mtt-left-text,
+#mtt-right-text p {
     text-align: center;
-    font-size: 20px;
     font-family: montserrat, sans-serif;
-    padding-left: 150px;
 }
 
-.circle-container {
+/*.circle-container {
     width: 350px;
     height: 350px;
     border-style: none;
@@ -193,32 +195,7 @@ body {
     border-width: 2px;
     border-radius: 50%;
     margin: 0 auto;
-}
-
-/* right section text and image */
-.right-section-text {
-    clear: both;
-    margin-top: 30px;
-    color: #fff;
-}
-
-.right-section-img {
-    padding-top: 60px;
-    padding-left: 80px;
-}
-
-.right-section-text h2 {
-    text-align: center;
-    margin-right: 150px;
-    border-bottom: 2px solid #fdc029;
-}
-
-.right-section-text p {
-    text-align: center;
-    font-size: 20px;
-    font-family: montserrat, sans-serif;
-    padding-right: 150px;
-}
+}*/
 
 /* background image for time and location section */
 
@@ -618,23 +595,15 @@ h4 {
         height: 200px;
     }
 
-    .left-section-text p {
+    .mtt-section-text p {
         font-size: 15px;
     }
 
-    .left-section-text h2 {
+    .mtt-section-text h2 {
         font-size: 20px;
     }
 
-    .right-section-text p {
-        font-size: 15px;
-    }
-
-    .right-section-text h2 {
-        font-size: 20px;
-    }
-
-    .left-section-img {
+    .mtt-section-img {
         padding-right: 40px;
     }
 
@@ -648,22 +617,7 @@ h4 {
         height: 300px;
     }
 
-    #about-wendy-text p {
-        font-size: 15px;
-        padding-left: 50px;
-    }
-
-    #wendy {
-        width: 300px;
-        height: 300px;
-    }
-
     #matt-car {
-        height: 164px;
-        width: 225px;
-    }
-
-    #wendy-car {
         height: 164px;
         width: 225px;
     }
@@ -699,20 +653,11 @@ h4 {
         height: 200px;
     }
 
-    .left-section-text p {
+    .mtt-section-text p {
         font-size: 10px;
     }
 
-    .left-section-text h2 {
-        font-size: 15px;
-    }
-
-
-    .right-section-text p {
-        font-size: 10px;
-    }
-
-    .right-section-text h2 {
+    .mtt-section-text h2 {
         font-size: 15px;
     }
 
@@ -754,26 +699,11 @@ h4 {
         height: 200px;
     }
 
-    #about-wendy-text p {
-        font-size: 11px;
-        padding-left: 50px;
-    }
-
-    #wendy {
-        width: 200px;
-        height: 200px;
-
-    }
-
     #matt-car {
         height: 91px;
         width: 125px;
     }
 
-    #wendy-car {
-        height: 91px;
-        width: 125px;
-    }
 }
 
 /* screens 550px wide */
@@ -807,22 +737,7 @@ h4 {
         height: 100px;
     }
 
-    #about-wendy-text p {
-        font-size: 11px;
-        padding-left: 20px;
-    }
-
-    #wendy {
-        width: 100px;
-        height: 100px;
-    }
-
     #matt-car {
-        height: 55px;
-        width: 75px;
-    }
-
-    #wendy-car {
         height: 55px;
         width: 75px;
     }
