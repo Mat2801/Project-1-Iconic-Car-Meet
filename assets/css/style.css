@@ -142,15 +142,7 @@ body {
 /* join the club */
 
 #meet-the-team {
-    height: 600px;
-}
-
-#join {
-    color: #fff;
-    text-align: center;
-    font-size: 300%;
-    margin: 40px;
-    text-transform: uppercase;
+    height: 1000px;
 }
 
 #mtt-left-text {
@@ -158,44 +150,76 @@ body {
     width: 33%;
     float: left;
     color: #fff;
-    background-color: aqua;
-
 }
 
 #mtt-right-text {
+    padding-top: 30px;
     width: 33%;
     float: right;
     color: #fff;
-    background-color: blue;
 }
 
 #mtt-img {
     width: 33%;
     margin: 0 auto;
-    background-color: chartreuse;
 }
 
-#mtt-left-text h2,
-#mtt-right-text h2 {
+hr {
+    width: 100%;
+    margin: 5px;
+    border-top: 3px solid #fdc029;
+}
+
+.mtt-left-heading {
+    width: 60%;
+    float: right;
+    clear: both;
+    margin-bottom: 100px;
+    line-height: 20px;
+}
+
+.mtt-right-heading {
+    width: 60%;
+    float: left;
+    clear: both;
+    margin-bottom: 100px;
+    line-height: 20px;
+}
+
+.mtt-right-heading h2 {
+    text-align: right;
+}
+
+.mtt-right-heading p {
+    text-align: right;
+}
+
+#join {
+    color: #fff;
     text-align: center;
-    border-bottom: 2px solid #fdc029;
+    font-size: 280%;
+    margin: 30px 0 150px 0;
+    text-transform: uppercase;
+
 }
 
-#mtt-left-text,
-#mtt-right-text p {
-    text-align: center;
-    font-family: montserrat, sans-serif;
-}
 
-/*.circle-container {
-    width: 350px;
-    height: 350px;
-    border-style: none;
-    border-color: #cccccc;
+#circle-container {
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-color: #fdc029;
     border-width: 2px;
     border-radius: 50%;
     margin: 0 auto;
-}*/
+    padding: 10px;
+}
+
+#circle-cover {
+    height: 100%;
+    border-radius: 50%;
+    background: url(../images/gallery/meet5.jpg) no-repeat center center;
+}
 
 /* background image for time and location section */
 
@@ -207,7 +231,6 @@ body {
     float: left;
     padding-top: 30px;
     padding-left: 10px;
-    margin-top: 18px;
     border: 5px solid #fdc029;
     box-sizing: border-box;
     background-image: url(../images/home/collection.jpg);
@@ -590,26 +613,38 @@ h4 {
         width: 350px;
     }
 
-    .circle-container {
-        width: 200px;
-        height: 200px;
+    #meet-the-team {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
     }
 
-    .mtt-section-text p {
-        font-size: 15px;
+    #join {
+        padding: 30px 0;
+        margin: 0;
     }
 
-    .mtt-section-text h2 {
-        font-size: 20px;
+    #mtt-left-text,
+    #mtt-right-text {
+        width: 100%;
+        float: left;
+        padding: 0;
     }
 
-    .mtt-section-img {
-        padding-right: 40px;
+    #mtt-img {
+        width: 100%;
+        clear: both;
+        float: left;
+        padding: 0;
     }
 
     #about-matt-text p {
         font-size: 15px;
         padding-left: 50px;
+    }
+
+    hr {
+        display: none;
     }
 
     #matt {
@@ -623,8 +658,8 @@ h4 {
     }
 }
 
-/* screens 750px wide */
-@media screen and (max-width: 750px) {
+/* screens 950px wide */
+@media screen and (max-width: 950px) {
 
     #logo {
         max-height: 66px;
@@ -648,17 +683,27 @@ h4 {
         top: 30%;
     }
 
-    .circle-container {
-        width: 200px;
-        height: 200px;
+    #meet-the-team {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
     }
 
-    .mtt-section-text p {
-        font-size: 10px;
+    .mtt-left-heading,
+    .mtt-right-heading {
+        width: inherit;
     }
 
-    .mtt-section-text h2 {
-        font-size: 15px;
+    .mtt-left-heading h2,
+    .mtt-right-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .mtt-left-heading p,
+    .mtt-right-heading p {
+        text-align: center;
+        padding: 0 20px;
     }
 
     .gallery {
@@ -675,6 +720,13 @@ h4 {
 
     .signup-left {
         height: 200px;
+    }
+
+    #time-location div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
     }
 
     #time-location h2 {
