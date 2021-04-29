@@ -142,69 +142,71 @@ body {
 /* join the club */
 
 #meet-the-team {
-    height: 1000px;
+    height: 1400px;
 }
 
 #mtt-left-text {
-    padding-top: 30px;
-    width: 33%;
-    float: left;
     color: #fff;
 }
 
 #mtt-right-text {
-    padding-top: 30px;
-    width: 33%;
-    float: right;
     color: #fff;
 }
 
 #mtt-img {
-    width: 33%;
-    margin: 0 auto;
+    height: 1000px;
+    width: 250px;
 }
 
-hr {
-    width: 100%;
+/*hr {
     margin: 5px;
     border-top: 3px solid #fdc029;
-}
+}*/
 
 .mtt-left-heading {
-    width: 60%;
+    width: 100%;
+    text-align: center;
     float: right;
     clear: both;
     margin-bottom: 100px;
     line-height: 20px;
 }
 
+.mtt-left-heading i,
+.mtt-right-heading i {
+    color: #fdc029;
+}
+
 .mtt-right-heading {
-    width: 60%;
-    float: left;
+    width: 100%;
+    text-align: center;
+    float: right;
     clear: both;
     margin-bottom: 100px;
     line-height: 20px;
 }
 
 .mtt-right-heading h2 {
-    text-align: right;
+    text-align: center;
 }
 
 .mtt-right-heading p {
-    text-align: right;
+    text-align: center;
 }
 
 #join {
     color: #fff;
+    width: 100%;
+    float: right;
     text-align: center;
     font-size: 280%;
-    margin: 30px 0 150px 0;
+    margin: 30px 0 100px 0;
     text-transform: uppercase;
 
 }
 
 
-#circle-container {
+/*#circle-container {
     width: 300px;
     height: 300px;
     border-style: solid;
@@ -219,7 +221,17 @@ hr {
     height: 100%;
     border-radius: 50%;
     background: url(../images/gallery/meet5.jpg) no-repeat center center;
+}*/
+
+#video {
+    width: 800px;
+    margin-left: 350px;
+    border-color: #fdc029;
+    border-width: 5px;
+    border-style: solid;
 }
+
+
 
 /* background image for time and location section */
 
@@ -352,7 +364,7 @@ h4 {
 
 /* about matt section on about us page */
 
-#about-matt-section {
+/*#about-matt-section {
     height: 525px;
     width: 100%;
     padding: 30px;
@@ -375,39 +387,6 @@ h4 {
 }
 
 #about-matt-text p {
-    color: #fff;
-    font-size: 20px;
-    text-align: left;
-    position: absolute;
-    padding-right: 100px;
-    padding-left: 10px;
-}
-
-/* about wendy section on about us page */
-
-#about-wendy-section {
-    height: 525px;
-    width: 100%;
-    padding: 30px;
-    float: left;
-    border-top: 5px solid #fdc029;
-}
-
-#about-wendy-img {
-    width: 30%;
-    float: left;
-    padding: 30px;
-    margin: 30px;
-}
-
-#about-wendy-text {
-    width: 40%;
-    float: left;
-    padding: 30px;
-    margin: 30px;
-}
-
-#about-wendy-text p {
     color: #fff;
     font-size: 20px;
     text-align: left;
@@ -613,12 +592,6 @@ h4 {
         width: 350px;
     }
 
-    #meet-the-team {
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
-    }
-
     #join {
         padding: 30px 0;
         margin: 0;
@@ -631,11 +604,38 @@ h4 {
         padding: 0;
     }
 
+    #meet-the-team {
+        width: 90%;
+        margin: 0 auto;
+    }
+
     #mtt-img {
         width: 100%;
         clear: both;
         float: left;
         padding: 0;
+    }
+
+    .mtt-left-heading,
+    .mtt-right-heading {
+        width: inherit;
+    }
+
+    .mtt-left-heading h2,
+    .mtt-right-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .mtt-left-heading p,
+    .mtt-right-heading p {
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    #video {
+        width: 600px;
+        margin-left: 200px;
     }
 
     #about-matt-text p {
@@ -704,6 +704,11 @@ h4 {
     .mtt-right-heading p {
         text-align: center;
         padding: 0 20px;
+    }
+
+    #video {
+        width: 400px;
+        margin-left: 30px;
     }
 
     .gallery {
