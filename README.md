@@ -36,8 +36,7 @@ iconic car meets e.g (location, time, date).
 
 ### Clickable navigation on the home page
 - Text box in landing image where the car icon is shown link to the times and locations. 
-- Landing image click this to navigate to the gallery. 
-- Both owners pictures link to the about us page. 
+- Landing image click this to navigate to the gallery.  
 - Social media links.
 
 ### User Stories

@@ -681,6 +681,7 @@ h4 {
     #nav-menu {
         font-size: 10px;
         width: 100%;
+        padding-right: 100px;
     }
 
     #nav-menu,
