@@ -262,6 +262,14 @@ body {
     overflow: hidden;
 }
 
+
+.overlay {
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0 50px;
+}
+
 #future-cars {
     height: 400px;
     width: 50%;
@@ -270,7 +278,7 @@ body {
     padding-left: 10px;
     border: 5px solid #fdc029;
     box-sizing: border-box;
-    background-image: url(../images/home/futureicon.jpg);
+    background-image: url(../images/home/futureicon\ \(2\).jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -450,10 +458,9 @@ h4 {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 1200px;
+    height: 1000px;
     padding: 20px 100px;
     border-top: 5px solid #fdc029;
-    border-bottom: 5px solid #fdc029;
 }
 
 .form-container:after {
@@ -579,6 +586,25 @@ h4 {
 
 .btn:hover {
     background-color: rgba(253, 192, 41, .7)
+}
+
+#address-info {
+    width: 100%;
+    padding-bottom: 100px;
+    border-bottom: 5px solid #fdc029;
+}
+
+#address-info h1 {
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline #fdc029;
+}
+
+#address-info h2 {
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
 }
 
 #map {
