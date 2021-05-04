@@ -233,12 +233,16 @@ body {
     background: url(../images/gallery/meet5.jpg) no-repeat center center;
 }*/
 
+
+
+
 #video {
     width: 800px;
-    margin-left: 350px;
+    position: absolute;
     border-color: #fdc029;
     border-width: 5px;
     border-style: solid;
+    margin: 900px 0 0 350px;
 }
 
 
@@ -382,57 +386,40 @@ h4 {
 
 /* about matt section on about us page */
 
-/*#about-matt-section {
-    height: 525px;
+#about-us-section {
+    height: 2450px;
     width: 100%;
     padding: 30px;
-    float: left;
-    border-top: 5px solid #fdc029;
-}
-
-#about-matt-img {
-    width: 30%;
-    float: left;
-    padding: 30px;
-    margin: 30px;
-}
-
-#about-matt-text {
-    width: 40%;
-    float: left;
-    padding: 30px;
-    margin: 30px;
-}
-
-#about-matt-text p {
-    color: #fff;
-    font-size: 20px;
-    text-align: left;
-    position: absolute;
-    padding-right: 100px;
-    padding-left: 10px;
-}
-
-/* about the owners cars */
-
-#our-cars-section {
-    height: 500px;
-    width: 100%;
-    padding: 60px;
     float: left;
     border-top: 5px solid #fdc029;
     border-bottom: 5px solid #fdc029;
 }
 
-#matt-car {
-    width: 40%;
-    padding-right: 10px;
-    margin-left: 150px;
-    overflow: hidden;
+#about-us-section h1 {
+    text-align: center;
+    color: #fdc029;
+    font-size: 35px;
+    text-decoration: underline #fdc029;
 }
 
-#wendy-car {
-    width: 40%;
+#about-us-section h2 {
+    text-align: left;
+    color: #fdc029;
+    font-size: 30px;
+    text-decoration: underline #fdc029;
+}
+
+#about-us-section h3 {
+    text-align: left;
+    color: #fdc029;
+    font-size: 25px;
+}
+
+#about-us-section p {
+    color: #fff;
+    font-size: 20px;
+    text-align: left;
+    padding-right: 100px;
     padding-left: 10px;
 }
 
@@ -620,8 +607,8 @@ h4 {
 }
 
 
-/* screens 1200px wide */
-@media screen and (max-width: 1200px) {
+/* screens 1100px wide */
+@media screen and (max-width: 1100px) {
     #landing-text {
         left: 10%;
         top: 50%;
@@ -671,7 +658,11 @@ h4 {
 
     #video {
         width: 600px;
-        margin-left: 200px;
+        margin-left: 175px;
+    }
+
+    .gallery {
+        column-count: 3;
     }
 
     #about-matt-text p {
@@ -695,7 +686,7 @@ h4 {
 }
 
 /* screens 950px wide */
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 980px) {
 
     #logo {
         max-height: 66px;
@@ -717,7 +708,7 @@ h4 {
 
     #landing-text {
         left: 10%;
-        top: 30%;
+        top: 40%;
     }
 
     #meet-the-team {
@@ -749,7 +740,7 @@ h4 {
     }
 
     .gallery {
-        column-count: 3;
+        column-count: 2;
     }
 
     .form-box {
@@ -798,41 +789,70 @@ h4 {
         width: 125px;
     }
 
+    .form-container {
+        padding: 20px 10px;
+    }
+
 }
 
-/* screens 550px wide */
-@media screen and (max-width: 550px) {
-
-    #logo {
-        max-height: 66px;
-        max-width: 150px;
-        width: 100%;
-        margin-left: 20%;
+/* screens 768px wide */
+@media screen and (max-width: 768px) {
+    #video {
+        width: 500px;
+        margin-left: 100px;
     }
 
+    /* screens 550px wide */
+    @media screen and (max-width: 550px) {
 
-    #nav-menu {
-        font-size: 7px;
-        width: 100%;
-    }
+        #logo {
+            max-height: 66px;
+            max-width: 150px;
+            width: 100%;
+            margin-left: 80px;
+        }
 
-    #landing-text {
-        font-size: 100%;
-        width: 260px;
-    }
 
-    #about-matt-text p {
-        font-size: 8px;
-        padding-left: 20px;
-    }
+        #nav-menu {
+            font-size: 5px;
+            padding-right: 5px;
+        }
 
-    #matt {
-        width: 100px;
-        height: 100px;
-    }
+        #landing-text {
+            font-size: 100%;
+            width: 260px;
+        }
 
-    #matt-car {
-        height: 55px;
-        width: 75px;
+        #about-matt-text p {
+            font-size: 8px;
+            padding-left: 20px;
+        }
+
+        #time-location {
+            padding-top: 280px;
+        }
+
+        .gallery {
+            column-count: 1;
+        }
+
+        #matt {
+            width: 100px;
+            height: 100px;
+        }
+
+        #matt-car {
+            height: 55px;
+            width: 75px;
+        }
+
+        #video {
+            width: 315px;
+            margin-left: -13px;
+            margin-top: 1250px;
+        }
+
+        .social-links {
+            font-size: 10px;
+        }
     }
-}
