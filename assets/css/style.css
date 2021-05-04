@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@300&display=swap');
 
 /* removing margins, padding and border */
+
 * {
     padding: 0;
     margin: 0;
@@ -11,8 +12,8 @@
 }
 
 /* adding font family and colour to all text unspecified */
+
 body {
-    width: 100%;
     font-weight: 300;
     background-color: black;
     font-family: Odwald, sans-serif;
@@ -127,6 +128,7 @@ body {
 }
 
 /* create the level of zoom for landing text */
+
 @keyframes landing-text-slidein {
     from {
         margin-top: 100%;
@@ -159,11 +161,6 @@ body {
     height: 1000px;
     width: 250px;
 }
-
-/*hr {
-    margin: 5px;
-    border-top: 3px solid #fdc029;
-}*/
 
 .mtt-left-heading {
     width: 100%;
@@ -199,11 +196,6 @@ body {
     text-transform: uppercase;
 }
 
-.mtt-right-heading p {
-    text-align: center;
-    font-size: 20px;
-}
-
 #join {
     color: #fff;
     width: 100%;
@@ -212,29 +204,7 @@ body {
     font-size: 280%;
     margin: 30px 0 100px 0;
     text-transform: uppercase;
-
 }
-
-
-/*#circle-container {
-    width: 300px;
-    height: 300px;
-    border-style: solid;
-    border-color: #fdc029;
-    border-width: 2px;
-    border-radius: 50%;
-    margin: 0 auto;
-    padding: 10px;
-}
-
-#circle-cover {
-    height: 100%;
-    border-radius: 50%;
-    background: url(../images/gallery/meet5.jpg) no-repeat center center;
-}*/
-
-
-
 
 #video {
     width: 800px;
@@ -244,8 +214,6 @@ body {
     border-style: solid;
     margin: 900px 0 0 350px;
 }
-
-
 
 /* background image for time and location section */
 
@@ -265,7 +233,6 @@ body {
     background-size: cover;
     overflow: hidden;
 }
-
 
 .overlay {
     background-position: center;
@@ -359,9 +326,6 @@ body {
 }
 
 /* footer & social links */
-footer {
-    height: 100px;
-}
 
 .social-links {
     text-align: center;
@@ -424,6 +388,7 @@ h4 {
 }
 
 /* gallery page */
+
 .gallery {
     clear: both;
     line-height: 0;
@@ -606,12 +571,15 @@ h4 {
     border: none;
 }
 
-
 /* screens 1100px wide */
+
 @media screen and (max-width: 1100px) {
+
+    /* responsive size for landing image and text */
+
     #landing-text {
         left: 10%;
-        top: 50%;
+        top: 30%;
         width: 350px;
     }
 
@@ -619,6 +587,8 @@ h4 {
         padding: 30px 0;
         margin: 0;
     }
+
+    /* responsive size for meet the team section */
 
     #mtt-left-text,
     #mtt-right-text {
@@ -656,44 +626,37 @@ h4 {
         padding: 0 20px;
     }
 
+    /* responsive size for meeet the team video */
+
     #video {
         width: 600px;
         margin-left: 175px;
     }
 
+    /* responsive size for gallery page */
+
     .gallery {
         column-count: 3;
     }
 
-    #about-matt-text p {
+    #about-us-text p {
         font-size: 15px;
         padding-left: 50px;
     }
 
-    hr {
-        display: none;
-    }
-
-    #matt {
-        width: 300px;
-        height: 300px;
-    }
-
-    #matt-car {
-        height: 164px;
-        width: 225px;
-    }
 }
 
-/* screens 950px wide */
+/* screens 980px wide */
+
 @media screen and (max-width: 980px) {
+
+    /* tablet size for header */
 
     #logo {
         max-height: 66px;
         max-width: 150px;
         width: 100%;
     }
-
 
     #nav-menu {
         font-size: 10px;
@@ -706,10 +669,14 @@ h4 {
         line-height: 60px;
     }
 
+    /* tablet size for landing image */
+
     #landing-text {
         left: 10%;
-        top: 40%;
+        top: 20%;
     }
+
+    /* tablet size for the meet the team section */
 
     #meet-the-team {
         width: 90%;
@@ -734,14 +701,20 @@ h4 {
         padding: 0 20px;
     }
 
+    /* tablet size for meet the team video */
+
     #video {
         width: 400px;
         margin-left: 30px;
     }
 
+    /* tablet sie for gallery */
+
     .gallery {
         column-count: 2;
     }
+
+    /* tablet size for forms */
 
     .form-box {
         grid-template-columns: 1fr;
@@ -752,8 +725,10 @@ h4 {
     }
 
     .signup-left {
-        height: 200px;
+        height: 100px;
     }
+
+    /* ipad size for times and location */
 
     #time-location div {
         width: 100%;
@@ -774,20 +749,14 @@ h4 {
         margin-top: 18px;
     }
 
-    #about-matt-text p {
+    /*ipad size for about us page */
+
+    #about-us-text p {
         font-size: 11px;
         padding-left: 50px;
     }
 
-    #matt {
-        width: 200px;
-        height: 200px;
-    }
-
-    #matt-car {
-        height: 91px;
-        width: 125px;
-    }
+    /* ipad and smaller form sizing */
 
     .form-container {
         padding: 20px 10px;
@@ -796,63 +765,79 @@ h4 {
 }
 
 /* screens 768px wide */
+
 @media screen and (max-width: 768px) {
+
+    /* ipad video centering */
+
     #video {
         width: 500px;
         margin-left: 100px;
     }
 
-    /* screens 550px wide */
-    @media screen and (max-width: 550px) {
-
-        #logo {
-            max-height: 66px;
-            max-width: 150px;
-            width: 100%;
-            margin-left: 80px;
-        }
-
-
-        #nav-menu {
-            font-size: 5px;
-            padding-right: 5px;
-        }
-
-        #landing-text {
-            font-size: 100%;
-            width: 260px;
-        }
-
-        #about-matt-text p {
-            font-size: 8px;
-            padding-left: 20px;
-        }
-
-        #time-location {
-            padding-top: 280px;
-        }
-
-        .gallery {
-            column-count: 1;
-        }
-
-        #matt {
-            width: 100px;
-            height: 100px;
-        }
-
-        #matt-car {
-            height: 55px;
-            width: 75px;
-        }
-
-        #video {
-            width: 315px;
-            margin-left: -13px;
-            margin-top: 1250px;
-        }
-
-        .social-links {
-            font-size: 10px;
-        }
+    #footer {
+        position: absolute;
     }
+}
+
+/* screens 550px wide */
+
+@media screen and (max-width: 550px) {
+
+    /*header for mobile screen */
+
+    #logo {
+        max-height: 66px;
+        max-width: 150px;
+        width: 100%;
+        margin-left: 80px;
+    }
+
+    #nav-menu {
+        font-size: 5px;
+        padding-right: 5px;
+    }
+
+    /*hero image and text for mobile screen*/
+
+    #landing-text {
+        font-size: 100%;
+        width: 260px;
+        left: 10%;
+        top: 40%;
+    }
+
+    /* mobile size for meet the team section*/
+
+    #about-us-text p {
+        font-size: 8px;
+        padding-left: 20px;
+    }
+
+    /* mobile size for time and location section */
+
+    #time-location {
+        padding-top: 280px;
+    }
+
+    /* mobile size for gallery page */
+
+    .gallery {
+        column-count: 1;
+    }
+
+    /* mobile size for video in meet us section */
+
+    #video {
+        width: 315px;
+        margin-left: -13px;
+        margin-top: 1250px;
+    }
+
+    /* mobile size for the footer */
+
+    .social-links {
+        font-size: 10px;
+    }
+
+}
