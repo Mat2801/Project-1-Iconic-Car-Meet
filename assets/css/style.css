@@ -19,6 +19,123 @@ body {
     font-family: Odwald, sans-serif;
 }
 
+/* test */
+.menu-wrap {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.menu-wrap .toggler {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    opacity: 0;
+}
+
+.menu-wrap .hamburger {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 60px;
+    height: 60px;
+    padding: 1rem;
+    background-color: rgba(253, 192, 41, .75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* hamburger line */
+
+.menu-wrap .hamburger>div {
+    position: relative;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s ease;
+}
+
+/* top and bottom lines */
+.menu-wrap .hamburger>div:before,
+.menu-wrap .hamburger>div:after {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    top: -10px;
+    width: 100%;
+    height: 2px;
+    background: inherit;
+}
+
+/* moves line to bottom */
+.menu-wrap .hamburger>div:after {
+    top: 10px;
+}
+
+/* animation for hamburger menu */
+
+.menu-wrap .toggler:checked+.hamburger>div {
+    transform: rotate(135deg);
+}
+
+/* turn into x on rotate */
+
+.menu-wrap .toggler:checked+.hamburger>div:before,
+.menu-wrap .toggler:checked+.hamburger>div:after {
+    top: 0;
+    transform: rotate(90deg);
+}
+
+/* rotate on hover when checked */
+
+.menu-wrap .toggler:checked:hover+.hamburger>div {
+    transform: rotate(225deg);
+}
+
+/* this may not be working */
+.menu-wrap .menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /*visibility: hidden;*/
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-wrap .menu>div {
+    background: rgba(253, 192, 41, .75);
+    border-radius: 50%;
+    width: 200vw;
+    height: 200vh;
+    display: flex;
+    flex: none;
+    align-items: center;
+    justify-content: center;
+    /*transform: scale(0);*/
+    transition: all 0.4s ease;
+}
+
+.menu-wrap .menu>div>div {
+    text-align: center;
+    max-width: 90vw;
+    max-height: 100vh;
+
+}
+
 /* header and logo */
 
 #logo {
@@ -26,7 +143,7 @@ body {
     margin: 20px 20px;
 }
 
-/* navigation links */
+/* navigation links and logo*/
 
 #nav-menu {
     font-size: 25px;
@@ -141,18 +258,18 @@ body {
     }
 }
 
-/* join the club */
+/* join the club section */
 
 #meet-the-team {
     height: 1400px;
 }
 
-#mtt-left-text {
+#mtt-top-text {
     color: #fff;
     padding: 0 350px;
 }
 
-#mtt-right-text {
+#mtt-bottom-text {
     color: #fff;
     padding: 0 150px;
 }
@@ -162,7 +279,9 @@ body {
     width: 250px;
 }
 
-.mtt-left-heading {
+/* styling the writing for join the club section */
+
+.mtt-top-heading {
     width: 100%;
     text-align: center;
     float: right;
@@ -171,12 +290,12 @@ body {
     line-height: 20px;
 }
 
-.mtt-left-heading i,
-.mtt-right-heading i {
+.mtt-top-heading i,
+.mtt-bottom-heading i {
     color: #fdc029;
 }
 
-.mtt-right-heading {
+.mtt-bottom-heading {
     width: 100%;
     text-align: center;
     float: right;
@@ -185,16 +304,18 @@ body {
     line-height: 20px;
 }
 
-.mtt-right-heading h2 {
+.mtt-bottom-heading h2 {
     text-align: center;
     font-size: 25px;
     text-transform: uppercase;
 }
 
-.mtt-left-heading h2 {
+.mtt-top-heading h2 {
     font-size: 25px;
     text-transform: uppercase;
 }
+
+/* heading for join the club section */
 
 #join {
     color: #fff;
@@ -206,6 +327,8 @@ body {
     text-transform: uppercase;
 }
 
+/* join the club video */
+
 #video {
     width: 800px;
     position: absolute;
@@ -214,8 +337,6 @@ body {
     border-style: solid;
     margin: 900px 0 0 350px;
 }
-
-/* background image for time and location section */
 
 /* times and locations tiles */
 
@@ -233,6 +354,8 @@ body {
     background-size: cover;
     overflow: hidden;
 }
+
+/* text overlay do enhance the text */
 
 .overlay {
     background-position: center;
@@ -342,6 +465,8 @@ body {
     color: #fdc029;
 }
 
+/* copyright section at bottom of footer */
+
 h4 {
     font-size: 15px;
     color: #fff;
@@ -358,6 +483,8 @@ h4 {
     border-top: 5px solid #fdc029;
     border-bottom: 5px solid #fdc029;
 }
+
+/* headings h1-h3 */
 
 #about-us-section h1 {
     text-align: center;
@@ -378,6 +505,8 @@ h4 {
     color: #fdc029;
     font-size: 25px;
 }
+
+/* paragraph */
 
 #about-us-section p {
     color: #fff;
@@ -440,6 +569,8 @@ h4 {
     border: 2px solid #fdc029;
 }
 
+/* form box heading */
+
 .form-box h2 {
     position: relative;
     color: #fff;
@@ -479,6 +610,8 @@ h4 {
     background-color: #fdc029;
 }
 
+/* form box images on the left of the form box */
+
 .form-left {
     height: 100%;
     background: url(../images/contact/Contactform.jpg) no-repeat center;
@@ -490,6 +623,8 @@ h4 {
     background: url(../images/signup/signup.jpg) no-repeat center;
     background-size: cover;
 }
+
+/* right form section where inputs are made */
 
 .form-right {
     padding: 25px 40px;
@@ -523,6 +658,8 @@ h4 {
     min-height: 300px;
 }
 
+/* form button */
+
 .btn {
     width: 100%;
     padding: 0.5rem 1rem;
@@ -539,6 +676,8 @@ h4 {
 .btn:hover {
     background-color: rgba(253, 192, 41, .7)
 }
+
+/* company information below the contact us form */
 
 #address-info {
     width: 100%;
@@ -559,6 +698,8 @@ h4 {
     text-align: center;
 }
 
+/* map of the location comapny is based */
+
 #map {
 
     height: 400px;
@@ -571,11 +712,11 @@ h4 {
     border: none;
 }
 
-/* screens 1100px wide */
+/* screens sizes 1100px wide or less */
 
 @media screen and (max-width: 1100px) {
 
-    /* responsive size for landing image and text */
+    /* responsive size for landing text and join the club text*/
 
     #landing-text {
         left: 10%;
@@ -590,8 +731,8 @@ h4 {
 
     /* responsive size for meet the team section */
 
-    #mtt-left-text,
-    #mtt-right-text {
+    #mtt-top-text,
+    #mtt-bottom-text {
         width: 100%;
         float: left;
         padding: 0;
@@ -609,19 +750,19 @@ h4 {
         padding: 0;
     }
 
-    .mtt-left-heading,
-    .mtt-right-heading {
+    .mtt-top-heading,
+    .mtt-bottom-heading {
         width: inherit;
     }
 
-    .mtt-left-heading h2,
-    .mtt-right-heading h2 {
+    .mtt-top-heading h2,
+    .mtt-bottom-heading h2 {
         width: 100%;
         text-align: center;
     }
 
-    .mtt-left-heading p,
-    .mtt-right-heading p {
+    .mtt-top-heading p,
+    .mtt-bottom-heading p {
         text-align: center;
         padding: 0 20px;
     }
@@ -646,11 +787,123 @@ h4 {
 
 }
 
-/* screens 980px wide */
+/* screens sizes 980px wide or less */
 
 @media screen and (max-width: 980px) {
 
-    /* tablet size for header */
+    /* medium screen size for header */
+
+    /* turning menu into hamburger menu for smaller screens */
+
+    .menu-wrap {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+
+    .menu-wrap .toggler {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        cursor: pointer;
+        width: 50px;
+        height: 50px;
+        opacity: 0;
+    }
+
+    .menu-wrap .hamburger {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        width: 60px;
+        height: 60px;
+        padding: 1rem;
+        background-color: rgba(253, 192, 41, .75);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* hamburger line */
+
+    .menu-wrap .hamburger>div {
+        position: relative;
+        width: 100%;
+        height: 2px;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.4s ease;
+    }
+
+    /* top and bottom lines */
+    .menu-wrap .hamburger>div:before,
+    .menu-wrap .hamburger>div:after {
+        content: '';
+        position: absolute;
+        z-index: 1;
+        top: -10px;
+        width: 100%;
+        height: 2px;
+        background: inherit;
+    }
+
+    /* moves line to bottom */
+    .menu-wrap .hamburger>div:after {
+        top: 10px;
+    }
+
+    /* animation for hamburger menu */
+
+    .menu-wrap .toggler:checked+.hamburger>div {
+        transform: rotate(135deg);
+    }
+
+    /* turn into x on rotate */
+
+    .menu-wrap .toggler:checked+.hamburger>div:before,
+    .menu-wrap .toggler:checked+.hamburger>div:after {
+        top: 0;
+        transform: rotate(90deg);
+    }
+
+    /* rotate on hover when checked */
+
+    .menu-wrap .toggler:checked:hover+.hamburger>div {
+        transform: rotate(225deg);
+    }
+
+    /* this may not be working */
+    .menu-wrap .menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        /*visibility: hidden;*/
+        /*overflow: hidden;*/
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .menu-wrap .menu>div {
+        background: rgba(253, 192, 41, .75);
+        border-radius: 50%;
+        width: 200vw;
+        height: 200vw;
+        display: flex;
+        flex: none;
+        align-items: center;
+        justify-content: center;
+        /*transform: scale(0);*/
+    }
+
+    /* logo and nav menu */
 
     #logo {
         max-height: 66px;
@@ -669,14 +922,14 @@ h4 {
         line-height: 60px;
     }
 
-    /* tablet size for landing image */
+    /* medium screen size for landing image */
 
     #landing-text {
         left: 10%;
         top: 20%;
     }
 
-    /* tablet size for the meet the team section */
+    /* medium screen size for the meet the team section */
 
     #meet-the-team {
         width: 90%;
@@ -684,37 +937,47 @@ h4 {
         margin: 0 auto;
     }
 
-    .mtt-left-heading,
-    .mtt-right-heading {
+    .mtt-top-heading,
+    .mtt-bottom-heading {
         width: inherit;
     }
 
-    .mtt-left-heading h2,
-    .mtt-right-heading h2 {
+    .mtt-top-heading h2,
+    .mtt-bottom-heading h2 {
         width: 100%;
         text-align: center;
     }
 
-    .mtt-left-heading p,
-    .mtt-right-heading p {
+    .mtt-top-heading p,
+    .mtt-bottom-heading p {
         text-align: center;
         padding: 0 20px;
     }
 
-    /* tablet size for meet the team video */
+    /* medium screen size for meet the team video */
 
     #video {
         width: 400px;
         margin-left: 30px;
     }
 
-    /* tablet sie for gallery */
+    /* medium screen size for gallery */
 
     .gallery {
         column-count: 2;
     }
 
-    /* tablet size for forms */
+    /* contact info size for medium screens */
+
+    #address-info h1 {
+        font-size: 15px;
+    }
+
+    #address-info h2 {
+        font-size: 10px;
+    }
+
+    /* medium screens size for forms */
 
     .form-box {
         grid-template-columns: 1fr;
@@ -728,7 +991,7 @@ h4 {
         height: 100px;
     }
 
-    /* ipad size for times and location */
+    /* medium screen size for times and location */
 
     #time-location div {
         width: 100%;
@@ -749,14 +1012,14 @@ h4 {
         margin-top: 18px;
     }
 
-    /*ipad size for about us page */
+    /*medium screen size for about us page */
 
     #about-us-text p {
         font-size: 11px;
         padding-left: 50px;
     }
 
-    /* ipad and smaller form sizing */
+    /* medium screen size form sizing */
 
     .form-container {
         padding: 20px 10px;
@@ -774,6 +1037,8 @@ h4 {
         width: 500px;
         margin-left: 100px;
     }
+
+    /* centering the footer */
 
     #footer {
         position: absolute;
@@ -829,8 +1094,8 @@ h4 {
     /* mobile size for video in meet us section */
 
     #video {
-        width: 315px;
-        margin-left: -13px;
+        width: 350px;
+        margin-left: 10px;
         margin-top: 1250px;
     }
 
@@ -840,4 +1105,14 @@ h4 {
         font-size: 10px;
     }
 
+}
+
+/* smallest mobile size for centering video */
+
+@media screen and (max-width: 375px) {
+    #video {
+        width: 315px;
+        margin-left: -13px;
+        margin-top: 1250px;
+    }
 }
