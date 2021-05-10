@@ -123,6 +123,13 @@ https://drive.google.com/file/d/1eBXO5f2KN1HY82oX3igw_8ZHCMgrIbV7/view?usp=shari
 - user stories all tested and corretly working. (check screenshots at user stories)
 - Find the full test sheet [here](https://drive.google.com/file/d/1Al_rC0sK2Y2rl3iZdEQ1azSQfei_tBVS/view?usp=sharing)
 
+# Current Bugs
+Video does not center when fully responsive i have tried to narrow this down and using media queries has helped. The video 
+will be centered when using most devices and on the main desktop however, when testing for responsivness the video will not
+always stay centered. I have attempted to fix this problem using position:absolute, but because my other sections are not positionaly fixed 
+as relative this does not work. This only places the video central for the desktop size and when narrowing the width covers up the video 
+rather than recentering it. 
+
 
 # Bugs throughout creating this website
 - Time and location tiles images wouldn't center. Fixed by manually resizing images and putting images into CSS instead of HTML.
