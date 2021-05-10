@@ -64,16 +64,25 @@ User003 - This user wanted to 'Join the club'. They were able to find how to do 
 join the club section by scrolling down the home page. On the 'Join the Club' section the user will see to go to the 'sign up' page to 
 become a member. To do this the user clicked the sign up navigation and filled in their details.
 When typing in the email they missed off the @ but when clicking submit, the form let them know and they were able to Sign up successfully.
-(See [Screenshots]())
+(See [Screenshots](https://drive.google.com/file/d/1pvoqk7b5bSOs9ztZBORJrbduRR5jSsZE/view?usp=sharing,
+https://drive.google.com/file/d/1NUsx1cC5XUgGSp8XSMH8Y0D8mY0i_p7I/view?usp=sharing,
+https://drive.google.com/file/d/1e3Q2sY9jXrwJ6EuX7z7Bue25qKMgULQt/view?usp=sharing, 
+https://drive.google.com/file/d/18W9rNB3xyn6VUzQa7k_fFQsABAw7tJGA/view?usp=sharing, 
+https://drive.google.com/file/d/1C2G_XUZK5f5yUUgz_CzzyKiNOMyXQT8K/view?usp=sharing))
 
 User004 - This user has visited the site to check out what cars they can find at the events. They clicked onto the navigation gallery option 
 which took them straight to the gallery when they found the images from previous meets.
-(See [Screenshots]())
+(See [Screenshots](https://drive.google.com/file/d/1GO5h8DjbDASlEYC3sJwhPwbTM8xviXlg/view?usp=sharing,
+https://drive.google.com/file/d/14hGiJBH-5CcvepbY8hhqio02muxrS13x/view?usp=sharing))
 
 User005 - This user was already a member and wanted to follow the socail media accounts for the latest news and updates. By scrolling through
 any page on the website the social media links could be easily found in the footer, once the user clicked the social media link it opened a new
 tab and opened the relevant link.
-(See [Screenshots]())
+(See [Screenshots](https://drive.google.com/file/d/1C-6sddZ2sw--n27KXWgf2QBX9nuayM_1/view?usp=sharing,
+https://drive.google.com/file/d/1C-6sddZ2sw--n27KXWgf2QBX9nuayM_1/view?usp=sharing, 
+https://drive.google.com/file/d/1IOPjq0rH19byRzQP0kN_ZwgxjWz61Zpz/view?usp=sharing, 
+https://drive.google.com/file/d/1hv14hcJLGcy1L0YLGslMz8FPl36QWpzX/view?usp=sharing,
+https://drive.google.com/file/d/1eBXO5f2KN1HY82oX3igw_8ZHCMgrIbV7/view?usp=sharing))
  
 # Features
 - Event location and times.
@@ -109,25 +118,11 @@ tab and opened the relevant link.
 - w3s Markup Validation service - All html code has been ran through via direct input and passed (screenshots here)
 - w3s CSS Validation Service - All CSS code has been ran through via direct input and has passed (screenshots here)
 - Chrome was used to create the website and works correctly only issue we have got is the home page video responsivness (check screenshots here)
-- firefox (check screenshots here)
-- edge (check screenshots here)
-- user stories all tested and corretly working. (check screenshots here)
+- firefox (check screenshots [here](https://drive.google.com/drive/folders/15NKyrikmU9eTZGPpv0zYdfVqU_uATvYy?usp=sharing))
+- edge (check screenshots [here](https://drive.google.com/drive/folders/15NKyrikmU9eTZGPpv0zYdfVqU_uATvYy?usp=sharing))
+- user stories all tested and corretly working. (check screenshots at user stories)
+- Find the full test sheet [here](https://drive.google.com/file/d/1Al_rC0sK2Y2rl3iZdEQ1azSQfei_tBVS/view?usp=sharing)
 
-JQuery
-The project uses JQuery to simplify DOM manipulation.
-Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
 # Bugs throughout creating this website
 - Time and location tiles images wouldn't center. Fixed by manually resizing images and putting images into CSS instead of HTML.
