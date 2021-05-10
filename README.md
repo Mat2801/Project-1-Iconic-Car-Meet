@@ -46,7 +46,8 @@ iconic car meets e.g (location, time, date).
 ### User Stories
 User001 - This user is on a laptop and has come to the website to find out, when and where the events for the next month are taking place.
 User001 has visitied the Home Page and saw the message on the landing page, then clicked 'Click here' and it took them to the relevent 
-place to find out more information about the upcoming events. (see [Screenshots](https://drive.google.com/file/d/1GO5h8DjbDASlEYC3sJwhPwbTM8xviXlg/view?usp=sharing, 
+place to find out more information about the upcoming events. 
+(See [Screenshots](https://drive.google.com/file/d/1GO5h8DjbDASlEYC3sJwhPwbTM8xviXlg/view?usp=sharing, 
 https://drive.google.com/file/d/18Qn7_zvHEWIT9cqTg2v4tcsZmlAHrtp4/view?usp=sharing))
 
 User002 - This user was using a mobile phone and came on the website as they wanted to place their car on a stand. The user also wanted to know 
@@ -55,18 +56,24 @@ The user started on the home page and when reading through they saw the 'join th
 their car on a stand. Following the instructions led them to the 'Contact us' page where they were able to contact us to get a place for their car. 
 They then clicked the logo to go back to the home page and clicked the hamburger menu which showed them a section called 'About us'. Here they 
 found all the rules surrounding the events. 
+(See [Screenshots](https://drive.google.com/file/d/19a-nl_t78HNH7T7zOQmvrUdc9BkGojYn/view?usp=sharing, 
+https://drive.google.com/file/d/1D9jePOB9ElUf0nOZ7_z0iCXvX5AZH5PS/view?usp=sharing, https://drive.google.com/file/d/1kHWhoZ1QAl2ea_0rk51L5MQ4ij2N3Nk_/view?usp=sharing
+https://drive.google.com/file/d/1zBAui2mxr-SaGWBfGyU-NqDypaEq_95M/view?usp=sharing))
 
 User003 - This user wanted to 'Join the club'. They were able to find how to do this when seeing the 
 join the club section by scrolling down the home page. On the 'Join the Club' section the user will see to go to the 'sign up' page to 
 become a member. To do this the user clicked the sign up navigation and filled in their details.
 When typing in the email they missed off the @ but when clicking submit, the form let them know and they were able to Sign up successfully.
+(See [Screenshots]())
 
 User004 - This user has visited the site to check out what cars they can find at the events. They clicked onto the navigation gallery option 
 which took them straight to the gallery when they found the images from previous meets.
+(See [Screenshots]())
 
 User005 - This user was already a member and wanted to follow the socail media accounts for the latest news and updates. By scrolling through
 any page on the website the social media links could be easily found in the footer, once the user clicked the social media link it opened a new
 tab and opened the relevant link.
+(See [Screenshots]())
  
 # Features
 - Event location and times.
