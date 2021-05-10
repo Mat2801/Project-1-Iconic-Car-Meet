@@ -46,7 +46,8 @@ iconic car meets e.g (location, time, date).
 ### User Stories
 User001 - This user is on a laptop and has come to the website to find out, when and where the events for the next month are taking place.
 User001 has visitied the Home Page and saw the message on the landing page, then clicked 'Click here' and it took them to the relevent 
-place to find out more information about the upcoming events.
+place to find out more information about the upcoming events. (see [Screenshots](https://drive.google.com/file/d/1GO5h8DjbDASlEYC3sJwhPwbTM8xviXlg/view?usp=sharing, 
+https://drive.google.com/file/d/18Qn7_zvHEWIT9cqTg2v4tcsZmlAHrtp4/view?usp=sharing))
 
 User002 - This user was using a mobile phone and came on the website as they wanted to place their car on a stand. The user also wanted to know 
 the rules around the event. 
