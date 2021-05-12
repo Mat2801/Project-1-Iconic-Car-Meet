@@ -37,15 +37,15 @@ iconic car meets e.g (location, time, date).
 ```Mock write ups``` can be found [here](https://drive.google.com/drive/folders/1uIGPxjE4VvPzef1UZPZA6M2fdmo0NrP8?usp=sharing) 
 All wireframes were designed using [Balsamiq](https://balsamiq.com/) Follow the links below 
 
-|    Desktop    |
+|      Desktop      |      Tablet      |      Mobile      |
 |    :.....:    |
-|[Home Page](readme-files/wireframes/desktop//home.bmpr)|
-|[About Page](readme-files/wireframes/desktop//about.bmpr)|
-|[Gallery](readme-files/wireframes/desktop//gallery.bmpr)|
-|[Contact US](readme-files/wireframes/desktop//contactus.bmpr)|
-|[Sign UP](readme-files/wireframes/desktop//signup.bmpr)|
+|[Home Page](readme-files/wireframes/desktop//home.bmpr)|[Home Page](readme-files/wireframes/desktop//home.bmpr)|[Home Page](readme-files/wireframes/desktop//home.bmpr)|
+|[About Page](readme-files/wireframes/desktop//about.bmpr)|[About Page](readme-files/wireframes/desktop//about.bmpr)|[About Page](readme-files/wireframes/desktop//about.bmpr)|
+|[Gallery](readme-files/wireframes/desktop//gallery.bmpr)|[Gallery](readme-files/wireframes/desktop//gallery.bmpr)|[Gallery](readme-files/wireframes/desktop//gallery.bmpr)|
+|[Contact US](readme-files/wireframes/desktop//contactus.bmpr)|[Contact US](readme-files/wireframes/desktop//contactus.bmpr)|[Contact US](readme-files/wireframes/desktop//contactus.bmpr)|
+|[Sign UP](readme-files/wireframes/desktop//signup.bmpr)|[Sign UP](readme-files/wireframes/desktop//signup.bmpr)|[Sign UP](readme-files/wireframes/desktop//signup.bmpr)|
 
-
+---
 
 - Home page - the user lands on this page and can see an image of a huge car show, with a small message which is linked to the location section.
 - For users intrested in who organises these car meets they can read short information on the home page or can head to the about us page for 
