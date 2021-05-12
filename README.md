@@ -38,7 +38,7 @@ iconic car meets e.g (location, time, date).
 All wireframes were designed using [Balsamiq](https://balsamiq.com/) Follow the links below 
 
 |      Desktop      |      Tablet      |      Mobile      |
-|    :.....:    |
+|      :-----:      |      :-----:     |      :-----:     |
 |[Home Page](readme-files/wireframes/desktop//home.bmpr)|[Home Page](readme-files/wireframes/desktop//home.bmpr)|[Home Page](readme-files/wireframes/desktop//home.bmpr)|
 |[About Page](readme-files/wireframes/desktop//about.bmpr)|[About Page](readme-files/wireframes/desktop//about.bmpr)|[About Page](readme-files/wireframes/desktop//about.bmpr)|
 |[Gallery](readme-files/wireframes/desktop//gallery.bmpr)|[Gallery](readme-files/wireframes/desktop//gallery.bmpr)|[Gallery](readme-files/wireframes/desktop//gallery.bmpr)|
