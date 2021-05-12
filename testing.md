@@ -1,35 +1,35 @@
-#Testing
+# Testing
 
 **Starting off with validation of the code**
 
-[CSS Validator]()
-![CSS Validation]()
+[CSS Validator](https://jigsaw.w3.org/css-validator/)
+![CSS Validation](readme-files/images//cssvalidator.png)
 
-[HTML Validator]()
+[HTML Validator](https://validator.w3.org/)
 
 - Home Page
 
-[Home Page Validation]()
+[Home Page Validation](readme-files/images//homepagevalidator.png)
 Test passed 
 
 - About Us Page
 
-![About page Validation]()
+![About page Validation](readme-files/images//aboutusvalidator.png)
 Test passed however, The warnings have been ignored as they are a design choice.
 
 - Gallery Page
 
-![Gallery Page Validation]()
+![Gallery Page Validation](readme-files/images//galleryvalidator.png)
 Test passed however, The warnings have been ignored as they are a design choice.
 
 - Contact Us Page
 
-![Contact Us Page Validation]()
+![Contact Us Page Validation](readme-files/images//contactusvalidator.png)
 Test passed however, The warnings have been ignored as they are a design choice.
 
 - Sign Up Page
 
-[Sign Up Page Validation]()
+[Sign Up Page Validation](readme-files/images//signupvalidator.png)
 Test passed
 
 ---
