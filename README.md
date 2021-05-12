@@ -129,7 +129,8 @@ The header and footer are consistant through out the website.
 ---
 
 ## Technologies Used
-- [w3s](https://www.w3schools.com/) - helped with overlays on the images to allow for clearer text.
+- [w3c Validator](https://validator.w3.org/) - To check for any errors in the HTML code.
+- [Jigsaw](https://jigsaw.w3.org/css-validator/) - To check for any errors in the style.css file. 
 - [Developer mozilla](https://developer.mozilla.org/en-US/) Helped create the hamburger menu.
 - [Gitpod](https://gitpod.io/) - Used to devlop the website. 
 - [GitHub](https://github.com/) - Used to host the project.
@@ -140,47 +141,41 @@ The header and footer are consistant through out the website.
 - [HTML](https://en.wikipedia.org/wiki/HTML) - This was used to create the structure and provide the contents to my website.
 - [CSS](https://en.wikipedia.org/wiki/CSS) - This was used to create the styling for my website.
 
+---
+
 ## Testing
-- w3s Markup Validation service - All html code has been ran through via direct input and passed (screenshots [here](https://drive.google.com/file/d/1V7jbx-2vWx8qdY2mG9uuJBnUIY8J9rH1/view?usp=sharing))
-- w3s CSS Validation Service - All CSS code has been ran through via direct input and has passed (screenshots [here](https://drive.google.com/drive/folders/1bbOtwv5290HpOUrEoTqWoXO9bKVlbnPc?usp=sharing))
-- Chrome was used to create the website and works correctly only issue we have got is the home page video responsivness (check screenshots here)
-- firefox (check screenshots [here](https://drive.google.com/drive/folders/15NKyrikmU9eTZGPpv0zYdfVqU_uATvYy?usp=sharing))
-- edge (check screenshots [here](https://drive.google.com/drive/folders/15NKyrikmU9eTZGPpv0zYdfVqU_uATvYy?usp=sharing))
-- user stories all tested and corretly working. (check screenshots at user stories)
-- Find the full test sheet [here](https://drive.google.com/file/d/1Al_rC0sK2Y2rl3iZdEQ1azSQfei_tBVS/view?usp=sharing)
 
-#### Current Bugs
-Video does not center when fully responsive i have tried to narrow this down and using media queries has helped. The video 
-will be centered when using most devices and on the main desktop however, when testing for responsivness the video will not
-always stay centered. I have attempted to fix this problem using position:absolute, but because my other sections are not positionaly fixed 
-as relative this does not work. This only places the video central for the desktop size and when narrowing the width covers up the video 
-rather than recentering it. 
+Please see the testing process [here](testing.md)
 
-
-#### Bugs throughout creating this website
-- Time and location tiles images wouldn't center. Fixed by manually resizing images and putting images into CSS instead of HTML.
-- Step back on a commit due to messing up css code unsure what the issue was.
-- Trying to fade images for location and time using rbga background colour but not working. Fixed using an overlay.
-- Times and location images not lining up correctly, one is a little lower than all the rest. Fixed using padding
-- Creating a burger menu and keeping text in a list. Fixed using visability as hidden and visible depending on active.
-- Video centering - Still having issues, tried using positioning such as absolute.
+---
 
 ## Deployment
+
+**How to deploy the project**
+
+Hosted on github pages
+
+1. Load up GitHub and find the correct repository.
+2. Using the project's repsoitory menu, at the top on the menu select **settings**.
+3. Scroll down until you see the **pages** section
+4. Now click on the **drop-down** menu and select the option **Master Branch**.
+5. The page refreshes and scrolls you back to the top, scroll down back to the **pages** section.
+6. The link to your deployed website will now be there.
+
+[Follow this link](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) to see how to depoloy to GitHub pages. 
+
+**How to run code locally**
+
 1. Load up GitHub
-2. Choose my project I want to deploy
-3. Head over to settings
-4. Now click on the Pages tab
-5. There will be a drop down box with 'none' written in it. Click this and select Master branch
-6. Now save and refresh your page and your website is hosted on github
+2. Find the project's repository
+3. Under the repository's name click **Clone**
+4. In the **clone with HTTPS** copy the url.
+5. Choose your IDE and open **git Bash**.
+6. Change the current working directory to the location where you want the cloned directory to be made.
+7. Now type **Git Clone**, and paste the url copied from github.
+8. Just press **enter** and you clone will be copied over.
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+---
 
 ## Credits
 Text for about us section was copied from santapod raceway. (Text has been edited for my website purpose)
@@ -188,10 +183,10 @@ Youtube for the basic structure of my forms
 Youtube for the basic hamburger menu 
 
 ### 6.1. Media
-- Personal images taken myself and edited using funkypic and windows editor.
-- unsplash 
+- Personal images taken myself and edited using [funkypic](https://www.befunky.com/) and [windows editor](https://www.microsoft.com/en-us/windows/photo-movie-editor).
+- [unsplash](https://unsplash.com/images/stock/non-copyrighted) used for the images on the forms. 
 
 ### 6.2. Acknowledgements
-I received inspiration for this project as I am a car enthusiast and I have attend many car shows. I thought this could be the beginning of a much 
-bigger website where all car meets and shows could be placed online for everyone to see and attend also possibly book there tickets or purchase
-tickets. 
+[Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/?originalSubdomain=ng) for the incredible mentoring support.
+The [Code Institute](https://codeinstitute.net/) team tutors, student care and mentors. 
+Anthony from slack was a great help through out my project. 
