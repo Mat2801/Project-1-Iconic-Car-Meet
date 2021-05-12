@@ -8,8 +8,7 @@
 [HTML Validator](https://validator.w3.org/)
 
 - Home Page
-
-[Home Page Validation](readme-files/images//homepagevalidator.png)
+![Home Page Validation](readme-files/images//homepagevalidator.png) 
 Test passed 
 
 - About Us Page
