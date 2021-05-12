@@ -223,18 +223,6 @@ ul {
 
 /* join the club video */
 
-/*#video-container {
-    display: block;
-    position: absolute;
-    background-position: center center;
-    background-repeat: no-repeat;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-
-}*/
-
 #video {
     width: 800px;
     position: absolute;
@@ -251,8 +239,6 @@ ul {
     height: 400px;
     width: 50%;
     float: left;
-    padding-top: 30px;
-    padding-left: 10px;
     border: 5px solid #fdc029;
     box-sizing: border-box;
     background-image: url(../images/home/collection.jpg);
@@ -264,19 +250,18 @@ ul {
 
 /* text overlay do enhance the text */
 
-.overlay {
+.overlay-area {
+    height: 100%;
+    width: 100%;
     background-position: center;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.5);
-    margin: 0 50px;
 }
 
 #future-cars {
     height: 400px;
     width: 50%;
     float: left;
-    padding-top: 30px;
-    padding-left: 10px;
     border: 5px solid #fdc029;
     box-sizing: border-box;
     background-image: url(../images/home/futureicon\ \(2\).jpg);
@@ -290,8 +275,6 @@ ul {
     height: 400px;
     width: 33.33%;
     float: left;
-    padding-top: 10px;
-    padding-left: 10px;
     border: 5px solid #fdc029;
     box-sizing: border-box;
     background-image: url(../images/home/euro.jpg);
@@ -305,8 +288,6 @@ ul {
     height: 400px;
     width: 33.33%;
     float: left;
-    padding-top: 30px;
-    padding-left: 10px;
     border: 5px solid #fdc029;
     box-sizing: border-box;
     background-image: url(../images/home/japanese.jpg);
@@ -320,8 +301,6 @@ ul {
     height: 400px;
     width: 33.33%;
     float: left;
-    padding-top: 30px;
-    padding-left: 10px;
     border: 5px solid #fdc029;
     box-sizing: border-box;
     background-image: url(../images/home/usa.jpg);
@@ -335,6 +314,7 @@ ul {
 
 #time-location {
     height: 400px;
+
 }
 
 #time-location h2 {
