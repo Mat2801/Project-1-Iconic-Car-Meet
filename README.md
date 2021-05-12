@@ -35,32 +35,31 @@ iconic car meets e.g (location, time, date).
 
 #### 1.2. Wireframes
 
-```Mock write ups``` can be found [here](https://drive.google.com/drive/folders/1uIGPxjE4VvPzef1UZPZA6M2fdmo0NrP8?usp=sharing) 
-All wireframes were designed using [Balsamiq](https://balsamiq.com/) Follow the links below 
+All ```Wireframes``` were designed using [Balsamiq](https://balsamiq.com/) Follow the links below 
 
 |      Desktop      |
 |      :-----:      |
-|[Home Page](readme-files/wireframes/desktop//home.bmpr)|
-|[About Page](readme-files/wireframes/desktop//about.bmpr)|
-|[Gallery](readme-files/wireframes/desktop//gallery.bmpr)|
-|[Contact US](readme-files/wireframes/desktop//contactus.bmpr)|
-|[Sign UP](readme-files/wireframes/desktop//signup.bmpr)|
+|[Home Page](readme-files/wireframes/desktop//home.png)|
+|[About Page](readme-files/wireframes/desktop//about.png)|
+|[Gallery](readme-files/wireframes/desktop//gallery.png)|
+|[Contact US](readme-files/wireframes/desktop//contactus.png)|
+|[Sign UP](readme-files/wireframes/desktop//signup.png)|
 
 |      Tablet      |
 |      :-----:      |
-|[Home Page](readme-files/wireframes/desktop//home.bmpr)|
-|[About Page](readme-files/wireframes/desktop//about.bmpr)|
-|[Gallery](readme-files/wireframes/desktop//gallery.bmpr)|
-|[Contact US](readme-files/wireframes/desktop//contactus.bmpr)|
-|[Sign UP](readme-files/wireframes/desktop//signup.bmpr)|
+|[Home Page](readme-files/wireframes/desktop//thome.png)|
+|[About Page](readme-files/wireframes/desktop//tabout.png)|
+|[Gallery](readme-files/wireframes/desktop//tgallery.png)|
+|[Contact US](readme-files/wireframes/desktop//tcontactus.png)|
+|[Sign UP](readme-files/wireframes/desktop//tsignup.png)|
 
 |      Mobile      |
 |      :-----:      |
-|[Home Page](readme-files/wireframes/desktop//home.bmpr)|
-|[About Page](readme-files/wireframes/desktop//about.bmpr)|
-|[Gallery](readme-files/wireframes/desktop//gallery.bmpr)|
-|[Contact US](readme-files/wireframes/desktop//contactus.bmpr)|
-|[Sign UP](readme-files/wireframes/desktop//signup.bmpr)|
+|[Home Page](readme-files/wireframes/desktop//thome.png)|
+|[About Page](readme-files/wireframes/desktop//tabout.png)|
+|[Gallery](readme-files/wireframes/desktop//tgallery.png)|
+|[Contact US](readme-files/wireframes/desktop//tcontactus.png)|
+|[Sign UP](readme-files/wireframes/desktop//tsignup.png)|
 
 ---
 

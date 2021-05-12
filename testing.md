@@ -28,7 +28,7 @@ Test passed however, The warnings have been ignored as they are a design choice.
 
 - Sign Up Page
 
-[Sign Up Page Validation](readme-files/images//signupvalidator.png)
+![Sign Up Page Validation](readme-files/images//signupvalidator.png)
 Test passed
 
 ---
@@ -41,7 +41,7 @@ Test passed
 
 ---
 
-## responsivness
+## Responsivness
 
 - I tested all devices using [ChromeDevTools](https://developer.chrome.com/docs/devtools/)
 
