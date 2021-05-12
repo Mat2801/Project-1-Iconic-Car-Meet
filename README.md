@@ -1,6 +1,6 @@
 # Iconic Car Meets
 
-!Iconic Car Meets(readme-files/images/logo_smaller.png)
+![Iconic Car Meets](readme-files/images//logo_smaller.png)
 
 
 This is a website based on an imagined nationwide car meet, where people from all around the nation that own iconic cars, 
@@ -13,12 +13,13 @@ Also, within the header there is a 'Sign up' section, users can go here to becom
  section where users can contact us if they would like to have their car on a stand or on track. Users can also use this sections to ask any 
  further questions they may have.
 
-## Demo 
-Here you can find a demo of my website [here](https://mat2801.github.io/project1-Iconic-Car-Meet/)
+Here you can find a demo of the deployed website [here](https://mat2801.github.io/project1-Iconic-Car-Meet/)
 
-Here you will find screenshots of my final project [here](https://drive.google.com/drive/folders/1JXytuJeyaGQR9JYwE8GoeCXOHQVz4t49?usp=sharing)
+Here you will find screenshots of the deployed website [here](https://drive.google.com/drive/folders/1JXytuJeyaGQR9JYwE8GoeCXOHQVz4t49?usp=sharing)
 
 # UX
+
+### 1.1. Project Goals
 I have chosen to base my project around iconic cars as they are a huge interest to me and something I can relate to easily. There 
 is also a very large gap on the internet regarding car shows and locations. The primary focus of this website, is to allow full 
 functional interaction with it's users to allow for a quick and easy user experience. 
@@ -31,6 +32,21 @@ This websites users are interested in iconic cars and locations of iconic car me
 car meets. The site owners goal is to provide a webpage that allows users to read a reliable source of information in regards to
 iconic car meets e.g (location, time, date). 
 
+### 1.2. Wireframes
+
+```Mock write ups``` can be found [here](https://drive.google.com/drive/folders/1uIGPxjE4VvPzef1UZPZA6M2fdmo0NrP8?usp=sharing) 
+All wireframes were designed using [Balsamiq](https://balsamiq.com/) Follow the links below 
+
+|    Desktop    |
+|    :.....:    |
+|[Home Page](readme-files/wireframes/desktop//home.bmpr)|
+|[About Page](readme-files/wireframes/desktop//about.bmpr)|
+|[Gallery](readme-files/wireframes/desktop//gallery.bmpr)|
+|[Contact US](readme-files/wireframes/desktop//contactus.bmpr)|
+|[Sign UP](readme-files/wireframes/desktop//signup.bmpr)|
+
+
+
 - Home page - the user lands on this page and can see an image of a huge car show, with a small message which is linked to the location section.
 - For users intrested in who organises these car meets they can read short information on the home page or can head to the about us page for 
   more information relating to rules at these car meets.
@@ -39,10 +55,6 @@ iconic car meets e.g (location, time, date).
 - Any user intrested in seeing updates and future car meets can sign up to the website by navigating to the sign up page. Again, by filling out a
   simple form. 
 - The gallery page is where the user wants to go to see some of the previous meets and incredible iconic cars. 
-
-### Clickable navigation on the home page
-- A text box appears within the landing image, the 'Click here' text links directly to the times and locations.
-- Social media links for Facebook, Twitter, Instagram and Youtube.
 
 ### User Stories
 User001 - This user is on a laptop and has come to the website to find out, when and where the events for the next month are taking place.
@@ -102,8 +114,6 @@ https://drive.google.com/file/d/1eBXO5f2KN1HY82oX3igw_8ZHCMgrIbV7/view?usp=shari
 - Memebership area could be added for paying members.
 - Shop section where users can purchase merchandise. 
 - Yearly events calendar where users can see events up to a year in advance.
-
-```Wireframes and Mock write ups``` can be found [here](https://drive.google.com/drive/folders/1uIGPxjE4VvPzef1UZPZA6M2fdmo0NrP8?usp=sharing)
 
 # Technologies Used
 - w3s
