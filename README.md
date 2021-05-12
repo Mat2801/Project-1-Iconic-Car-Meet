@@ -47,19 +47,19 @@ All ```Wireframes``` were designed using [Balsamiq](https://balsamiq.com/) Follo
 
 |      Tablet      |
 |      :-----:      |
-|[Home Page](readme-files/wireframes/desktop//thome.png)|
-|[About Page](readme-files/wireframes/desktop//tabout.png)|
-|[Gallery](readme-files/wireframes/desktop//tgallery.png)|
-|[Contact US](readme-files/wireframes/desktop//tcontactus.png)|
-|[Sign UP](readme-files/wireframes/desktop//tsignup.png)|
+|[Home Page](readme-files/wireframes/tablet//thome.png)|
+|[About Page](readme-files/wireframes/tablet//tabout.png)|
+|[Gallery](readme-files/wireframes/tablet//tgallery.png)|
+|[Contact US](readme-files/wireframes/tablet//tcontactus.png)|
+|[Sign UP](readme-files/wireframes/tablet//tsignup.png)|
 
 |      Mobile      |
 |      :-----:      |
-|[Home Page](readme-files/wireframes/desktop//thome.png)|
-|[About Page](readme-files/wireframes/desktop//tabout.png)|
-|[Gallery](readme-files/wireframes/desktop//tgallery.png)|
-|[Contact US](readme-files/wireframes/desktop//tcontactus.png)|
-|[Sign UP](readme-files/wireframes/desktop//tsignup.png)|
+|[Home Page](readme-files/wireframes/mobile//thome.png)|
+|[About Page](readme-files/wireframes/mobile//tabout.png)|
+|[Gallery](readme-files/wireframes/mobile//tgallery.png)|
+|[Contact US](readme-files/wireframes/mobile//tcontactus.png)|
+|[Sign UP](readme-files/wireframes/mobile//tsignup.png)|
 
 ---
 
