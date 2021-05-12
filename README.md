@@ -42,7 +42,7 @@ All ```Wireframes``` were designed using [Balsamiq](https://balsamiq.com/) Follo
 |[Home Page](readme-files/wireframes/desktop//home.png)|
 |[About Page](readme-files/wireframes/desktop//about.png)|
 |[Gallery](readme-files/wireframes/desktop//gallery.png)|
-|[Contact US](readme-files/wireframes/desktop//contactus.png)|
+|[Contact US](readme-files/wireframes/desktop//contact.png)|
 |[Sign UP](readme-files/wireframes/desktop//signup.png)|
 
 |      Tablet      |
@@ -50,16 +50,16 @@ All ```Wireframes``` were designed using [Balsamiq](https://balsamiq.com/) Follo
 |[Home Page](readme-files/wireframes/tablet//thome.png)|
 |[About Page](readme-files/wireframes/tablet//tabout.png)|
 |[Gallery](readme-files/wireframes/tablet//tgallery.png)|
-|[Contact US](readme-files/wireframes/tablet//tcontactus.png)|
+|[Contact US](readme-files/wireframes/tablet//tcontact.png)|
 |[Sign UP](readme-files/wireframes/tablet//tsignup.png)|
 
 |      Mobile      |
 |      :-----:      |
-|[Home Page](readme-files/wireframes/mobile//thome.png)|
-|[About Page](readme-files/wireframes/mobile//tabout.png)|
-|[Gallery](readme-files/wireframes/mobile//tgallery.png)|
-|[Contact US](readme-files/wireframes/mobile//tcontactus.png)|
-|[Sign UP](readme-files/wireframes/mobile//tsignup.png)|
+|[Home Page](readme-files/wireframes/mobile//mhome.png)|
+|[About Page](readme-files/wireframes/mobile//mabout.png)|
+|[Gallery](readme-files/wireframes/mobile//mgallery.png)|
+|[Contact US](readme-files/wireframes/mobile//mcontactus.png)|
+|[Sign UP](readme-files/wireframes/mobile//msignup.png)|
 
 ---
 
