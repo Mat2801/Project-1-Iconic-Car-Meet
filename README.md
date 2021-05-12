@@ -37,13 +37,29 @@ iconic car meets e.g (location, time, date).
 ```Mock write ups``` can be found [here](https://drive.google.com/drive/folders/1uIGPxjE4VvPzef1UZPZA6M2fdmo0NrP8?usp=sharing) 
 All wireframes were designed using [Balsamiq](https://balsamiq.com/) Follow the links below 
 
-|      Desktop      |      Tablet      |      Mobile      |
-|      :-----:      |      :-----:     |      :-----:     |
-|[Home Page](readme-files/wireframes/desktop//home.bmpr)|[Home Page](readme-files/wireframes/desktop//home.bmpr)|[Home Page](readme-files/wireframes/desktop//home.bmpr)|
-|[About Page](readme-files/wireframes/desktop//about.bmpr)|[About Page](readme-files/wireframes/desktop//about.bmpr)|[About Page](readme-files/wireframes/desktop//about.bmpr)|
-|[Gallery](readme-files/wireframes/desktop//gallery.bmpr)|[Gallery](readme-files/wireframes/desktop//gallery.bmpr)|[Gallery](readme-files/wireframes/desktop//gallery.bmpr)|
-|[Contact US](readme-files/wireframes/desktop//contactus.bmpr)|[Contact US](readme-files/wireframes/desktop//contactus.bmpr)|[Contact US](readme-files/wireframes/desktop//contactus.bmpr)|
-|[Sign UP](readme-files/wireframes/desktop//signup.bmpr)|[Sign UP](readme-files/wireframes/desktop//signup.bmpr)|[Sign UP](readme-files/wireframes/desktop//signup.bmpr)|
+|      Desktop      |
+|      :-----:      |
+|[Home Page](readme-files/wireframes/desktop//home.bmpr)|
+|[About Page](readme-files/wireframes/desktop//about.bmpr)|
+|[Gallery](readme-files/wireframes/desktop//gallery.bmpr)|
+|[Contact US](readme-files/wireframes/desktop//contactus.bmpr)|
+|[Sign UP](readme-files/wireframes/desktop//signup.bmpr)|
+
+|      Tablet      |
+|      :-----:      |
+|[Home Page](readme-files/wireframes/desktop//home.bmpr)|
+|[About Page](readme-files/wireframes/desktop//about.bmpr)|
+|[Gallery](readme-files/wireframes/desktop//gallery.bmpr)|
+|[Contact US](readme-files/wireframes/desktop//contactus.bmpr)|
+|[Sign UP](readme-files/wireframes/desktop//signup.bmpr)|
+
+|      Mobile      |
+|      :-----:      |
+|[Home Page](readme-files/wireframes/desktop//home.bmpr)|
+|[About Page](readme-files/wireframes/desktop//about.bmpr)|
+|[Gallery](readme-files/wireframes/desktop//gallery.bmpr)|
+|[Contact US](readme-files/wireframes/desktop//contactus.bmpr)|
+|[Sign UP](readme-files/wireframes/desktop//signup.bmpr)|
 
 ---
 
