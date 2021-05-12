@@ -1,6 +1,6 @@
 # Testing
 
-**Starting off with validation of the code**
+## Starting off with validation of the code
 
 [CSS Validator](https://jigsaw.w3.org/css-validator/)
 ![CSS Validation](readme-files/images//cssvalidator.png)
