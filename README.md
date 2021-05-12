@@ -178,13 +178,15 @@ Hosted on github pages
 ---
 
 ## Credits
-Text for about us section was copied from santapod raceway. (Text has been edited for my website purpose)
+Text for about us section was copied from [santapod raceway. (Text has been edited for my website purpose)
 Youtube for the basic structure of my forms
 Youtube for the basic hamburger menu 
 
 ### 6.1. Media
 - Personal images taken myself and edited using [funkypic](https://www.befunky.com/) and [windows editor](https://www.microsoft.com/en-us/windows/photo-movie-editor).
-- [unsplash](https://unsplash.com/images/stock/non-copyrighted) used for the images on the forms. 
+- [unsplash](https://unsplash.com/images/stock/non-copyrighted) used for the images on the forms.
+- Text for about us section was copied from [santapod raceway](https://santapod.co.uk/). (Text has been edited for my website purpose)
+- [Youtube](https://www.youtube.com/) for the basic structure of my forms and the hamburger menu. 
 
 ### 6.2. Acknowledgements
 [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/?originalSubdomain=ng) for the incredible mentoring support.
