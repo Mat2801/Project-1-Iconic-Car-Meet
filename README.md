@@ -65,17 +65,17 @@ All ```Wireframes``` were designed using [Balsamiq](https://balsamiq.com/) Follo
 
 #### 1.3. User Stories
 
-- A frequent user, i would like to sign up to become a memeber.
-- A frequent user, i would like to contact you to be able to place my show car on a stand or a track.
-- A frequest user, What rules do i have to follow when going to events
-- An owner, i want to show how easy event are to find and visit.
-- An owner, i want to make things easier for users to be able to show there cars on stands and tracks.
-- An owner, i would like to gain memebers who can meet together at events.
-- An infrequent user, i would like to check out what locations and times meets this month will be at.
-- An infrequent user, i would like to contact them about a few extra questions i have. 
+- A frequent user, I would like to sign up to become a memeber.
+- A frequent user, I would like to contact you to be able to place my show car on a stand or a track.
+- A frequest user, What rules do I have to follow when going to events
+- An owner, I want to show how easy event are to find and visit.
+- An owner, I want to make things easier for users to be able to show there cars on stands and tracks.
+- An owner, I would like to gain memebers who can meet together at events.
+- An infrequent user, I would like to check out what locations and times meets this month will be at.
+- An infrequent user, I would like to contact them about a few extra questions I have. 
 - An unsure user, is there any information related to the events. 
 - An unsure user, does this business have an address.
-- A new user, i would love to check out some pictures of previous events. 
+- A new user, I would love to check out some pictures of previous events. 
 - A new user, do they have any social media.
  
 ## Features
@@ -189,5 +189,5 @@ Youtube for the basic hamburger menu
 
 ### 6.2. Acknowledgements
 [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/?originalSubdomain=ng) for the incredible mentoring support.
-The [Code Institute](https://codeinstitute.net/) team tutors, student care and mentors. 
+The [Code Institute](https://codeinstitute.net/) student care and mentors. 
 Anthony from slack was a great help through out my project. 

@@ -573,18 +573,20 @@ h4 {
     width: 100%;
     padding-bottom: 100px;
     border-bottom: 5px solid #fdc029;
+    line-height: 45px;
 }
 
 #address-info h1 {
     color: #fff;
-    font-size: 50px;
+    font-size: 60px;
     text-align: center;
     text-decoration: underline #fdc029;
+    padding-bottom: 30px;
 }
 
 #address-info h2 {
     color: #fff;
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
 }
 
@@ -904,12 +906,17 @@ h4 {
 
     /* contact info size for medium screens */
 
+    #address-info {
+        line-height: 25px;
+    }
+
     #address-info h1 {
-        font-size: 15px;
+        font-size: 25px;
+        padding-bottom: 15px;
     }
 
     #address-info h2 {
-        font-size: 10px;
+        font-size: 15px;
     }
 
     /* medium screens size for forms */
@@ -1017,6 +1024,7 @@ h4 {
         width: 260px;
         left: 10%;
         top: 25%;
+        animation: none;
     }
 
     /* mobile size for meet the team section*/
