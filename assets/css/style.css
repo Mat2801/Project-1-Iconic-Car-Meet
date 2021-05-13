@@ -990,6 +990,7 @@ h4 {
     #video {
         width: 500px;
         margin-left: 100px;
+        margin-top: 800px;
     }
 
     /* centering the footer */
@@ -1037,7 +1038,7 @@ h4 {
     /* mobile size for time and location section */
 
     #time-location {
-        padding-top: 280px;
+        padding-top: 170px;
     }
 
     /* mobile size for gallery page */
@@ -1051,7 +1052,7 @@ h4 {
     #video {
         width: 325px;
         margin-left: 4px;
-        margin-top: 1250px;
+        margin-top: 1075px;
     }
 
     /*sign up form image */
@@ -1073,6 +1074,6 @@ h4 {
     #video {
         width: 300px;
         margin-left: -6px;
-        margin-top: 1250px;
+        margin-top: 1150px;
     }
 }
