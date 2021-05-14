@@ -37,7 +37,7 @@ iconic car meets e.g (location, time, date).
 
 All ```Wireframes``` were designed using [Balsamiq](https://balsamiq.com/) Follow the links below 
 
-|      Desktop      |
+|      Desktop on Acer Aspire 5     |
 |      :-----:      |
 |[Home Page](readme-files/wireframes/desktop//home.png)|
 |[About Page](readme-files/wireframes/desktop//about.png)|
@@ -45,7 +45,7 @@ All ```Wireframes``` were designed using [Balsamiq](https://balsamiq.com/) Follo
 |[Contact US](readme-files/wireframes/desktop//contact.png)|
 |[Sign UP](readme-files/wireframes/desktop//signup.png)|
 
-|      Tablet      |
+|      Tablet in iPad/iPad Pro view     |
 |      :-----:      |
 |[Home Page](readme-files/wireframes/tablet//thome.png)|
 |[About Page](readme-files/wireframes/tablet//tabout.png)|
@@ -53,7 +53,7 @@ All ```Wireframes``` were designed using [Balsamiq](https://balsamiq.com/) Follo
 |[Contact US](readme-files/wireframes/tablet//tcontact.png)|
 |[Sign UP](readme-files/wireframes/tablet//tsignup.png)|
 
-|      Mobile      |
+|      Mobile in iPhone 5, 6, 7, 8, X     |
 |      :-----:      |
 |[Home Page](readme-files/wireframes/mobile//mhome.png)|
 |[About Page](readme-files/wireframes/mobile//mabout.png)|
@@ -73,8 +73,6 @@ All ```Wireframes``` were designed using [Balsamiq](https://balsamiq.com/) Follo
 - An owner, I would like to gain memebers who can meet together at events.
 - An infrequent user, I would like to check out what locations and times meets this month will be at.
 - An infrequent user, I would like to contact them about a few extra questions I have. 
-- An unsure user, is there any information related to the events. 
-- An unsure user, does this business have an address.
 - A new user, I would love to check out some pictures of previous events. 
 - A new user, do they have any social media.
  

@@ -108,13 +108,6 @@ a little more than I would like, this has also been noted in the bugs section.
     * Scrolling down the **Home page** a user will see the **Join the club** section here it explains how to contact us.
     * Navigating through the website the user can navigate to **Contact us**
 
-- An unsure user, is there any information related to the events.
-    * Navigating through the website the user will navigate to the **About us** section where they will find all information. 
-    * User can also navigate to the **Contact us** section for more information. 
-
-- An unsure user, does this business have an address.
-    * Navigating through the website the user can find the **Contact us** page where they will find the business address.
-
 - A new user, I would love to check out some pictures of previous events.
     * Scrolling through the **Home page** the user can see some previous event pictures.
     * Whilst navigating the website the user can click **Gallery** navigation to see more previous event images.
